@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1775282224521
+    },
+    "playwright-browser-automation": {
+      "version": "2.0.0",
+      "installedAt": 1775534711256
+    },
+    "canva": {
+      "version": "1.0.0",
+      "installedAt": 1775551372487
+    }
+  }
+}

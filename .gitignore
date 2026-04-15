@@ -1,0 +1,36 @@
+# Secrets and sensitive data
+secrets/
+*.env
+.env.*
+credentials.json
+token.json
+
+# Temporary files
+*.tmp
+*.temp
+temp-*.json
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files (exceed GitHub 100MB limit)
+tools/whisper/
+*.bin
+*.mp4
+*.wav
+*.ogg
+*.zip
+
+# Temp media
+temp/reel1.mp4
+proofit-posts/
+scripts/screenshots/
+scripts/postoria-demo.mp4
+scripts/test-image.jpg
+scripts/post-image.jpg
+temp_audio.wav
+temp_voice*.wav

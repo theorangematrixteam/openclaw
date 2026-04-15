@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "AUTH_SESSION_ID",
+      "value": "ZjBiN2ViOGEtMzU2Mi00ZDk0LWIwNzAtNjVlMmZmYWY2MGVlLkltYlNzejBLa2pOcmdZS1JGeXNtanpMU1dNTkg2V3dFYS1RbExJMVV2a2NJTU1sVUdnZUdkRUhMR1lKZDZSQkdtMTBDeEZKZ0JxQWJkUE55UHdyRU9n.keycloak-56d7d78897-cq7dk-30682",
+      "domain": "login.postoria.io",
+      "path": "/realms/postoria/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KC_AUTH_SESSION_HASH",
+      "value": "\"/BF7IK7mItAJRYBN6xSadZ7Xc+tCQDkZ7Bt6QnhNk5w\"",
+      "domain": "login.postoria.io",
+      "path": "/realms/postoria/",
+      "expires": 1775540328.73893,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_IDENTITY",
+      "value": "eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhYjIzZGNmMy01MmJmLTQ2MmEtODZmNS0xZGRhNDg1MmFhMTAifQ.eyJleHAiOjE3NzY3NDk4NzAsImlhdCI6MTc3NTU0MDI3MCwianRpIjoiNzAxMGVlMzctZDczNC1kOTM2LTcxZjUtZTUzNDYyMmNhNTM0IiwiaXNzIjoiaHR0cHM6Ly9sb2dpbi5wb3N0b3JpYS5pby9yZWFsbXMvcG9zdG9yaWEiLCJzdWIiOiI5OWVlYTk0NC03YTgwLTQxODAtYTNmMS1mNzFjYzVmMmQ2M2UiLCJ0eXAiOiJTZXJpYWxpemVkLUlEIiwic2lkIjoiZjBiN2ViOGEtMzU2Mi00ZDk0LWIwNzAtNjVlMmZmYWY2MGVlIiwic3RhdGVfY2hlY2tlciI6IlVuaWl1WjU5ZkhQajBkTi1SMkN1OEFYLUc0eEJFQWNpWVVxcWlxWkZFS2sifQ.nVH4ZLFhGr9cxaHsN9S0au181RrDLG0K1Y-NiDiVD3x8m5R97hk7Te0K9LKlT7ZBHStknkobKIBXw6MTbJY6oQ",
+      "domain": "login.postoria.io",
+      "path": "/realms/postoria/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "KEYCLOAK_SESSION",
+      "value": "_BF7IK7mItAJRYBN6xSadZ7Xc-tCQDkZ7Bt6QnhNk5w",
+      "domain": "login.postoria.io",
+      "path": "/realms/postoria/",
+      "expires": 1776749870.927981,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pa_ws_4205",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InYxIn0.eyJ3cyI6IjQyMDUiLCJzY29wZSI6ImFzc2V0czpyZWFkIiwic3ViIjoiOTllZWE5NDQtN2E4MC00MTgwLWEzZjEtZjcxY2M1ZjJkNjNlIiwibmJmIjoxNzc1NTQwMjcxLCJleHAiOjE3NzU1NDM4NzF9.M_b8WD4icWdXTjW8vYB_bZBFsObe0LXbRJEGUWXNHAc",
+      "domain": "assets.postoria.io",
+      "path": "/w/4205/",
+      "expires": 1775543873.432094,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://app.postoria.io",
+      "localStorage": [
+        {
+          "name": "oidc-spa_966975_diagnostic",
+          "value": "[{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267485,\"message\":\"=================== Evaluating the handleOidcCallback file, isInIframe: false, location.href: https://app.postoria.io/\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267486,\"message\":\"In handleOidcCallback_nonMemoized()\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267486,\"message\":\"No state in url\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267486,\"message\":\"state query param value undefined\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267486,\"message\":\"backForwardTracker: undefined\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267486,\"message\":\"returning isHandled false\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267625,\"message\":\"handleOidcCallback() call, it has been called previously {\\\"isHandled\\\":false}\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267630,\"message\":\"handleOidcCallback() call, it has been called previously {\\\"isHandled\\\":false}\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267631,\"message\":\">>> In retrieveRedirectAuthResponseAndStateData({\\\"configId\\\":\\\"https://login.postoria.io/realms/postoria:app\\\"})\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267631,\"message\":\"authResponses: []\"},{\"appInstanceId\":\"04u2tawpxeua\",\"time\":1775540267631,\"message\":\"Returning {} <<<<<<<<<\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268587,\"message\":\"=================== Evaluating the handleOidcCallback file, isInIframe: true, location.href: https://app.postoria.io/?error=login_required&state=b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C&iss=https%3A%2F%2Flogin.postoria.io%2Frealms%2Fpostoria\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268587,\"message\":\"In handleOidcCallback_nonMemoized()\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268587,\"message\":\"state query param value b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268587,\"message\":\"stateData: {\\\"context\\\":\\\"iframe\\\",\\\"configId\\\":\\\"https://login.postoria.io/realms/postoria:app\\\"}\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268588,\"message\":\"authResponse: {\\\"state\\\":\\\"b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\\\",\\\"error\\\":\\\"login_required\\\",\\\"iss\\\":\\\"https://login.postoria.io/realms/postoria\\\"}\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268588,\"message\":\"Returning isHandled: true\"},{\"appInstanceId\":\"4sdza4mya5a\",\"time\":1775540268588,\"message\":\"(callback 0) posting message to parent\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270955,\"message\":\"=================== Evaluating the handleOidcCallback file, isInIframe: false, location.href: https://app.postoria.io/?state=b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C&session_state=f0b7eb8a-3562-4d94-b070-65e2ffaf60ee&iss=https%3A%2F%2Flogin.postoria.io%2Frealms%2Fpostoria&code=e0c96adc-46ff-4011-aeb9-3a03df30cf6a.f0b7eb8a-3562-4d94-b070-65e2ffaf60ee.77abb17b-21f3-4aa1-b94f-2ab2fbbc31fc\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270955,\"message\":\"In handleOidcCallback_nonMemoized()\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270955,\"message\":\"state query param value b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270956,\"message\":\"stateData: {\\\"context\\\":\\\"redirect\\\",\\\"redirectUrl\\\":\\\"https://app.postoria.io/\\\",\\\"extraQueryParams\\\":{},\\\"hasBeenProcessedByCallback\\\":false,\\\"configId\\\":\\\"https://login.postoria.io/realms/postoria:app\\\",\\\"action\\\":\\\"login\\\",\\\"redirectUrl_consentRequiredCase\\\":\\\"https://app.postoria.io/\\\"}\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270956,\"message\":\"authResponse: {\\\"state\\\":\\\"b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\\\",\\\"session_state\\\":\\\"f0b7eb8a-3562-4d94-b070-65e2ffaf60ee\\\",\\\"iss\\\":\\\"https://login.postoria.io/realms/postoria\\\",\\\"code\\\":\\\"e0c96adc-46ff-4011-aeb9-3a03df30cf6a.f0b7eb8a-3562-4d94-b070-65e2ffaf60ee.77abb17b-21f3-4aa1-b94f-2ab2fbbc31fc\\\"}\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270956,\"message\":\"Returning isHandled: true\"},{\"appInstanceId\":\"mtuu0rcooea\",\"time\":1775540270957,\"message\":\"(callback 0) location.href = \\\"https://app.postoria.io/\\\";\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270979,\"message\":\"=================== Evaluating the handleOidcCallback file, isInIframe: false, location.href: https://app.postoria.io/\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270979,\"message\":\"In handleOidcCallback_nonMemoized()\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270979,\"message\":\"No state in url\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270979,\"message\":\"state query param value undefined\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270979,\"message\":\"backForwardTracker: undefined\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270979,\"message\":\"returning isHandled false\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270991,\"message\":\"handleOidcCallback() call, it has been called previously {\\\"isHandled\\\":false}\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270999,\"message\":\"handleOidcCallback() call, it has been called previously {\\\"isHandled\\\":false}\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270999,\"message\":\">>> In retrieveRedirectAuthResponseAndStateData({\\\"configId\\\":\\\"https://login.postoria.io/realms/postoria:app\\\"})\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270999,\"message\":\"authResponses: [{\\\"state\\\":\\\"b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\\\",\\\"session_state\\\":\\\"f0b7eb8a-3562-4d94-b070-65e2ffaf60ee\\\",\\\"iss\\\":\\\"https://login.postoria.io/realms/postoria\\\",\\\"code\\\":\\\"e0c96adc-46ff-4011-aeb9-3a03df30cf6a.f0b7eb8a-3562-4d94-b070-65e2ffaf60ee.77abb17b-21f3-4aa1-b94f-2ab2fbbc31fc\\\"}]\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270999,\"message\":\"authResponse: {\\\"state\\\":\\\"b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\\\",\\\"session_state\\\":\\\"f0b7eb8a-3562-4d94-b070-65e2ffaf60ee\\\",\\\"iss\\\":\\\"https://login.postoria.io/realms/postoria\\\",\\\"code\\\":\\\"e0c96adc-46ff-4011-aeb9-3a03df30cf6a.f0b7eb8a-3562-4d94-b070-65e2ffaf60ee.77abb17b-21f3-4aa1-b94f-2ab2fbbc31fc\\\"}\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270999,\"message\":\"stateDate: {\\\"context\\\":\\\"redirect\\\",\\\"redirectUrl\\\":\\\"https://app.postoria.io/\\\",\\\"extraQueryParams\\\":{},\\\"hasBeenProcessedByCallback\\\":true,\\\"configId\\\":\\\"https://login.postoria.io/realms/postoria:app\\\",\\\"action\\\":\\\"login\\\",\\\"redirectUrl_consentRequiredCase\\\":\\\"https://app.postoria.io/\\\"}\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540270999,\"message\":\"writeRedirectAuthResponses({\\\"authResponses\\\":[]})\"},{\"appInstanceId\":\"2cp8x3b5qh\",\"time\":1775540271000,\"message\":\"Returning {\\\"authResponseAndStateData\\\":{\\\"authResponse\\\":{\\\"state\\\":\\\"b2lkYy1zcGEu7G3vKOs_kIQw1_Wk-b8C\\\",\\\"session_state\\\":\\\"f0b7eb8a-3562-4d94-b070-65e2ffaf60ee\\\",\\\"iss\\\":\\\"https://login.postoria.io/realms/postoria\\\",\\\"code\\\":\\\"e0c96adc-46ff-4011-aeb9-3a03df30cf6a.f0b7eb8a-3562-4d94-b070-65e2ffaf60ee.77abb17b-21f3-4aa1-b94f-2ab2fbbc31fc\\\"},\\\"stateData\\\":{\\\"context\\\":\\\"redirect\\\",\\\"redirectUrl\\\":\\\"https://app.postoria.io/\\\",\\\"extraQueryParams\\\":{},\\\"hasBeenProcessedByCallback\\\":true,\\\"configId\\\":\\\"https://login.postoria.io/realms/postoria:app\\\",\\\"action\\\":\\\"login\\\",\\\"redirectUrl_consentRequiredCase\\\":\\\"https://app.postoria.io/\\\"}}} <<<<<<<<<\"}]"
+        }
+      ]
+    }
+  ]
+}
