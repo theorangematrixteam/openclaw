@@ -1,5 +1,7 @@
 # Proofit
 
+**Founder:** Priyal
+
 ## Source
 
 Primary source used for this profile:

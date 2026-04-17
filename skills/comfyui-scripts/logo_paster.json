@@ -1,0 +1,89 @@
+{
+  "2": {
+    "inputs": {
+      "image": "logo.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Logo"
+    }
+  },
+  "7": {
+    "inputs": {
+      "image": "outfit_1.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Base Image"
+    }
+  },
+  "10": {
+    "inputs": {
+      "image": ["2", 0],
+      "upscale_method": "lanczos",
+      "width": 1024,
+      "height": 1024,
+      "crop": "disabled"
+    },
+    "class_type": "ImageScale",
+    "_meta": {
+      "title": "Scale Logo to 1024x1024"
+    }
+  },
+  "13": {
+    "inputs": {
+      "mask": ["2", 1]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "Convert Logo Mask to Image"
+    }
+  },
+  "14": {
+    "inputs": {
+      "image": ["13", 0],
+      "upscale_method": "nearest-exact",
+      "width": 1024,
+      "height": 1024,
+      "crop": "disabled"
+    },
+    "class_type": "ImageScale",
+    "_meta": {
+      "title": "Scale Mask to 1024x1024"
+    }
+  },
+  "15": {
+    "inputs": {
+      "image": ["14", 0],
+      "channel": "red"
+    },
+    "class_type": "ImageToMask",
+    "_meta": {
+      "title": "Convert Scaled Mask Back"
+    }
+  },
+  "3": {
+    "inputs": {
+      "destination": ["7", 0],
+      "source": ["10", 0],
+      "x": 3072,
+      "y": 0,
+      "resize_source": false,
+      "mask": ["15", 0]
+    },
+    "class_type": "ImageCompositeMasked",
+    "_meta": {
+      "title": "Paste Logo (masked) Top-Right"
+    }
+  },
+  "148": {
+    "inputs": {
+      "filename_prefix": "logo_pasted",
+      "images": ["3", 0]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}

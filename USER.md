@@ -41,9 +41,9 @@ Working preferences:
 - When giving instructions, include direct links whenever possible to make execution faster.
 - When Jinay says to remember something, corrects Sarah, or shares durable preferences about how Sarah should work, store it in workspace memory so the same mistakes are not repeated.
 - Default behavior: just do the task without asking again unless it requires a high-security/sensitive approval or there is real ambiguity/blocking risk.
-- Permanent model rule: use Codex GPT-5.4 for thinking, planning, and complex reasoning.
-- Preferred model routing: GLM-5 cloud is the fallback for Codex GPT-5.4, while delegated execution tasks should use local Qwen 3.5 9B on Jinay's GPU.
-- Hardware: RTX 5090 — always prefer local/GPU-based solutions over paid cloud APIs.
+- Permanent model rule: use GLM-5.1 for all tasks (thinking, planning, execution).
+- Vision model: use gemma4:30b cloud for all vision-related tasks.
+- No local models for now — stick to cloud GLM-5.1 + cloud gemma4:30b.
 - Tell Jinay which model is being used whenever model choice is relevant or explicitly requested.
 - When updating one operational sheet or system, also update all directly related sheets/systems so they stay in sync.
 - **Always use the Humanizer skill** (skills/humanizer/SKILL.md) when writing any client-facing document — Google Docs, emails, reports, plans. No emojis in headers, no AI-speak, no significance inflation, no rule-of-three lists, no bold inline labels. Write like a person, not a template.

@@ -4,6 +4,18 @@ Condensed session summaries for quick context.
 
 ---
 
+## 2026-04-17 — Totsburg order, Buffer GraphQL, Model update
+
+- Completed 72 images for Totsburg; sent catalogue quote to Naman
+- Migrated Buffer API to GraphQL (REST endpoints dead)
+- Unified model config: GLM-5.1 primary, gemma4:30b cloud for vision
+- Updated Orikai/Proofit founder details (Yashvi = Orikai, Priyal = Proofit)
+- Sent Orikai photos for approval; modified Notch India planner for Apr 21 start
+- Fixed git history and moved API keys to environment variables
+- Created intern interview questions
+
+---
+
 ## 2026-04-14 — Meetings, interviews, scheduling decisions
 
 - Sent samples to Naman, attended Revisions meet with Priyal

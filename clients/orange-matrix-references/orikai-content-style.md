@@ -1,8 +1,8 @@
 # The Orikai - Content Style Reference
 
-**Profile:** https://www.instagram.com/orikaiofficial/  
-**Account:** @orikaiofficial  
-**Verified:** Yes  
+**Profile:** https://www.instagram.com/orikaiofficial/
+**Account:** @orikaiofficial
+**Verified:** Yes
 **Content Type:** Kids fashion, emotional parenting, brand storytelling
 
 ---
@@ -22,11 +22,11 @@
 - **Visual style:** Premium, heirloom quality aesthetic
 
 ### Content Themes
-1. **Emotional parenting** — "Every child deserves to feel: I belong. I matter. I am enough."
-2. **Product storytelling** — Positioning as heirloom pieces, not fast fashion
-3. **Founder journey** — Behind-the-scenes startup journey posts
-4. **Lifestyle aesthetics** — Vacation outfits, everyday style for kids
-5. **Subtle product drops** — "Dropping soon. Trust me you'll want it first"
+1. **Emotional parenting** - "Every child deserves to feel: I belong. I matter. I am enough."
+2. **Product storytelling** - Positioning as heirloom pieces, not fast fashion
+3. **Founder journey** - Behind-the-scenes startup journey posts (Yashvi - Orikai founder)
+4. **Lifestyle aesthetics** - Vacation outfits, everyday style for kids
+5. **Subtle product drops** - "Dropping soon. Trust me you'll want it first"
 
 ### Hook Patterns
 - **Emotional statements:** "We dress them for comfort. We dress them for style. But more than anything, we dress them for confidence."
@@ -51,9 +51,9 @@
 
 ### Post 1: https://www.instagram.com/p/DWyYpBljPJ0/
 
-**Format:** 5-slide carousel  
-**Likes:** 6  
-**Caption:** 
+**Format:** 5-slide carousel
+**Likes:** 6
+**Caption:**
 > "We dress them for comfort. We dress them for style. But more than anything, we dress them for confidence. Because every child deserves to feel: 'I belong. I matter. I am enough.'"
 
 **Analysis:**
@@ -61,33 +61,33 @@
 - **Structure:** Builds from functional (comfort/style) to emotional (confidence/belonging)
 - **Visuals:** Clean product photography, lifestyle shots
 - **No hashtags** in this post
-- **CTA:** Implicit — brand values, not hard sell
+- **CTA:** Implicit - brand values, not hard sell
 
 ### Post 2: https://www.instagram.com/p/DVvJpDAgCt5/
 
-**Format:** Single image post  
-**Likes:** 12 (from related data)  
+**Format:** Single image post
+**Likes:** 12 (from related data)
 **Caption:** Short emotional messaging about heirloom quality
 
 ---
 
 ## What Works Well
 
-1. **Emotional positioning** — Not selling clothes, selling confidence and belonging
-2. **Founder storytelling** — Humanizes the brand, builds trust
-3. **Premium aesthetic** — Clean visuals, minimal clutter
-4. **Soft launches** — Building anticipation before product drops
-5. **Value-driven content** — Parenting insights, not just product photos
+1. **Emotional positioning** - Not selling clothes, selling confidence and belonging
+2. **Founder storytelling** - Humanizes the brand, builds trust
+3. **Premium aesthetic** - Clean visuals, minimal clutter
+4. **Soft launches** - Building anticipation before product drops
+5. **Value-driven content** - Parenting insights, not just product photos
 
 ---
 
 ## Applicable to Orange Matrix
 
 This style can inspire:
-- **Client founder stories** — Behind-the-scenes journey posts
-- **Emotional positioning** — Connect products to deeper values
-- **Premium aesthetic** — Clean, minimal, lifestyle-focused visuals
-- **Soft announcement strategy** — Build anticipation before launches
+- **Client founder stories** - Behind-the-scenes journey posts
+- **Emotional positioning** - Connect products to deeper values
+- **Premium aesthetic** - Clean, minimal, lifestyle-focused visuals
+- **Soft announcement strategy** - Build anticipation before launches
 
 ### Adaptation Ideas
 - Use emotional hooks that connect to customer values

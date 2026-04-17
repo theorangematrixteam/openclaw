@@ -1,185 +1,138 @@
 ---
 name: canva
-version: 1.0.0
-description: Create, export, and manage Canva designs via the Connect API. Generate social posts, carousels, and graphics programmatically.
-homepage: https://github.com/abgohel/canva-skill
-metadata: {"clawdbot":{"emoji":"🎨","category":"design","requires":{"env":["CANVA_CLIENT_ID","CANVA_CLIENT_SECRET"]}}}
+version: 2.0.0
+description: Create, export, and manage Canva designs via MCP. Generate AI images with ComfyUI, upload to Canva, and build complete design pipelines.
 ---
 
-# Canva Skill
+# Canva + ComfyUI Design Pipeline
 
-Create, export, and manage Canva designs via the Connect API.
+Create, export, and manage Canva designs. Generate AI images locally via ComfyUI, upload to Canva, and build complete content pipelines.
 
 ## When to Use
 
 - "Create an Instagram post about [topic]"
-- "Export my Canva design as PNG"
-- "List my recent designs"
-- "Create a carousel from these points"
+- "Generate an image of [description] and make a Canva design"
+- "Export my Canva design as PNG/PDF"
 - "Upload this image to Canva"
+- "Resize a design for different platforms"
+- "List my Canva designs/folders"
 
-## Prerequisites
+## Setup (Already Done)
 
-1. **Create a Canva Integration:**
-   - Go to https://www.canva.com/developers/
-   - Create a new integration
-   - Get your Client ID and Client Secret
+### Canva MCP
+- Configured in `openclaw.json` under `mcp.servers`
+- OAuth authorized — works directly from OpenClaw
+- **Canva Pro** (₹799/mo) required for "Generate design" feature
 
-2. **Set Environment Variables:**
-   ```bash
-   export CANVA_CLIENT_ID="your_client_id"
-   export CANVA_CLIENT_SECRET="your_client_secret"
-   ```
+### ComfyUI MCP
+- Configured in `openclaw.json` under `mcp.servers`
+- ComfyUI Desktop running on port **8000**
+- Model: **Z Image Turbo** (z_image_turbo_bf16.safetensors)
+- Output saves to `C:\Users\USER\Desktop\comfyui_new\output`
+- Fetch images via API: `GET /view?filename=<name>`
 
-3. **Authenticate (first time):**
-   Run the auth flow to get access tokens (stored in `~/.canva/tokens.json`)
+## Available Canva Tools
 
-## API Base URL
+| Tool | What It Does |
+|------|-------------|
+| `generate-design` | AI-generate designs from a prompt (needs Canva Pro) |
+| `search-designs` | Search existing designs by keyword |
+| `get-design` | Get design details (title, URL, thumbnail) |
+| `get-design-content` | Read text content of a design |
+| `get-design-pages` | List pages in a presentation |
+| `export-design` | Export as PNG/JPG/PDF/MP4 |
+| `get-export-formats` | Check which formats a design supports |
+| `create-folder` | Create a folder in Canva |
+| `move-item-to-folder` | Move designs/folders |
+| `list-folder-items` | List contents of a folder |
+| `upload-asset-from-url` | Upload an image from URL |
+| `comment-on-design` | Add comment to a design |
+| `list-comments` | Get comments on a design |
+| `resize-design` | Resize design for different platforms |
+| `search-folders` | Search folders by name |
+| `import-design-from-url` | Import from URL (PDF, PPTX, etc.) |
 
-```
-https://api.canva.com/rest/v1
-```
+## ComfyUI Tools
 
-## Authentication
+| Tool | What It Does |
+|------|-------------|
+| `enqueue_workflow` | Run a ComfyUI workflow |
+| `get_job_status` | Check if generation is done |
+| `get_history` | Get execution results |
+| `list_output_images` | List generated images |
+| `upload_image` | Upload image to ComfyUI input dir |
+| `list_local_models` | List installed models |
+| `create_workflow` | Create workflow from template |
+| `modify_workflow` | Modify an existing workflow |
+| `validate_workflow` | Validate without running |
+| `get_node_info` | Get available node types |
+| `get_system_stats` | GPU/VRAM info |
 
-Canva uses OAuth 2.0. The skill handles token refresh automatically.
+## Z Image Turbo Workflow (Working)
 
-```bash
-# Get access token (stored in ~/.canva/tokens.json)
-ACCESS_TOKEN=$(cat ~/.canva/tokens.json | jq -r '.access_token')
-```
+The tested and working txt2img workflow for Z Image Turbo:
 
-## Core Operations
-
-### List Designs
-
-```bash
-curl -s "https://api.canva.com/rest/v1/designs" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" | jq .
-```
-
-### Get Design Details
-
-```bash
-curl -s "https://api.canva.com/rest/v1/designs/{designId}" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" | jq .
-```
-
-### Create Design from Template
-
-```bash
-curl -X POST "https://api.canva.com/rest/v1/autofills" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "brand_template_id": "TEMPLATE_ID",
-    "data": {
-      "title": {"type": "text", "text": "Your Title"},
-      "body": {"type": "text", "text": "Your body text"}
-    }
-  }'
-```
-
-### Export Design
-
-```bash
-# Start export job
-curl -X POST "https://api.canva.com/rest/v1/exports" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "design_id": "DESIGN_ID",
-    "format": {"type": "png", "width": 1080, "height": 1080}
-  }'
-
-# Check export status
-curl -s "https://api.canva.com/rest/v1/exports/{jobId}" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" | jq .
+```json
+{
+  "11": {"class_type": "ModelSamplingAuraFlow", "inputs": {"model": ["28", 0], "shift": 3}},
+  "13": {"class_type": "EmptySD3LatentImage", "inputs": {"batch_size": 1, "height": 1344, "width": 1088}},
+  "27": {"class_type": "CLIPTextEncode", "inputs": {"clip": ["30", 0], "text": "YOUR PROMPT HERE"}},
+  "28": {"class_type": "UNETLoader", "inputs": {"unet_name": "z-image\\z_image_turbo_bf16.safetensors", "weight_dtype": "default"}},
+  "29": {"class_type": "VAELoader", "inputs": {"vae_name": "ae.safetensors"}},
+  "3": {"class_type": "KSampler", "inputs": {"cfg": 1, "denoise": 1, "latent_image": ["13", 0], "model": ["11", 0], "negative": ["33", 0], "positive": ["27", 0], "sampler_name": "res_multistep", "scheduler": "simple", "seed": 42, "steps": 9}},
+  "30": {"class_type": "CLIPLoader", "inputs": {"clip_name": "qwen_3_4b.safetensors", "device": "default", "type": "lumina2"}},
+  "33": {"class_type": "ConditioningZeroOut", "inputs": {"conditioning": ["27", 0]}},
+  "8": {"class_type": "VAEDecode", "inputs": {"samples": ["3", 0], "vae": ["29", 0]}},
+  "9": {"class_type": "SaveImage", "inputs": {"filename_prefix": "SarahGen", "images": ["8", 0]}}
+}
 ```
 
-### Upload Asset
+### Settings
+- **Steps**: 9 (turbo model, fast)
+- **CFG**: 1
+- **Sampler**: res_multistep / simple
+- **Resolution**: 1088x1344 (9:16 portrait, 2MP) — change via ResolutionSelector or EmptySD3LatentImage
+- **Generation time**: ~6s with cached models, ~52s cold start (RTX 5090)
 
-```bash
-curl -X POST "https://api.canva.com/rest/v1/asset-uploads" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" \
-  -H "Content-Type: application/octet-stream" \
-  -H 'Asset-Upload-Metadata: {"name": "my-image.png"}' \
-  --data-binary @image.png
+### Fetching Generated Images
+ComfyUI Desktop saves to a different user's directory. Fetch via API:
 ```
-
-### List Brand Templates
-
-```bash
-curl -s "https://api.canva.com/rest/v1/brand-templates" \
-  -H "Authorization: Bearer $ACCESS_TOKEN" | jq .
+GET http://localhost:8000/view?filename=SarahGen_00001_.png
 ```
+Save to workspace: `C:\Users\openclaw.BILLION-DOLLAR-\Documents\ComfyUI\output\`
 
-## Export Formats
+## Common Pipelines
 
-| Format | Options |
-|--------|---------|
-| PNG | width, height, lossless |
-| JPG | width, height, quality (1-100) |
-| PDF | standard, print |
-| MP4 | (for video designs) |
-| GIF | (for animated designs) |
+### 1. AI Image → Canva Design
+1. Generate image with ComfyUI (enqueue Z Image Turbo workflow)
+2. Fetch image via API
+3. Upload to Canva with `upload-asset-from-url` or use in `generate-design`
 
-## Common Workflows
+### 2. Canva Design → Export
+1. `get-export-formats` to check supported formats
+2. `export-design` as PNG/PDF
+3. Share download URL
 
-### Create Instagram Post
+### 3. Batch Content Generation
+1. Generate multiple images via ComfyUI (change seed each time)
+2. Upload all to Canva
+3. Create designs using each image
+4. Export for social media
 
-1. List brand templates: `GET /brand-templates`
-2. Find Instagram post template
-3. Autofill with content: `POST /autofills`
-4. Export as PNG 1080x1080: `POST /exports`
-5. Download the exported file
+## Other Available Workflows
 
-### Create Carousel
+| Workflow | Description |
+|----------|-------------|
+| `image_z_image_turbo_fun_union_controlnet.json` | Z Image with ControlNet |
+| `klein t2i.json` | FLUX Klein text-to-image |
+| `Klein Inpaint.json` | FLUX Klein inpainting |
+| `nano banana.json` | Lightweight model |
+| `seedvr2 upscaler.json` | Video upscaling |
+| `video_ltx2_3_i2v.json` | Image-to-video |
 
-1. Create multiple designs using autofill
-2. Export each as PNG
-3. Combine for posting
+## Notes
 
-### Batch Export
-
-1. List designs: `GET /designs`
-2. Loop through and export each
-3. Download all files
-
-## Rate Limits
-
-- Most endpoints: 100 requests/minute
-- Upload/Export: 30 requests/minute
-
-## Error Handling
-
-Common errors:
-- `401` - Token expired, refresh needed
-- `403` - Missing required scope
-- `429` - Rate limit exceeded
-- `404` - Design/template not found
-
-## Scopes Required
-
-- `design:content:read` - Read designs
-- `design:content:write` - Create/modify designs
-- `asset:read` - Read assets
-- `asset:write` - Upload assets
-- `brandtemplate:content:read` - Read brand templates
-
-## Tips
-
-1. **Use Brand Templates** - Pre-designed templates are faster than creating from scratch
-2. **Batch Operations** - Group exports to avoid rate limits
-3. **Cache Template IDs** - Store commonly used template IDs locally
-4. **Check Job Status** - Exports are async; poll until complete
-
-## Resources
-
-- [Canva Connect API Docs](https://www.canva.dev/docs/connect/)
-- [OpenAPI Spec](https://www.canva.dev/sources/connect/api/latest/api.yml)
-- [Starter Kit](https://github.com/canva-sdks/canva-connect-api-starter-kit)
-
----
-
-Built by **Meow 😼** for the Moltbook community 🦞
+- ComfyUI Desktop output dir is `C:\Users\USER\Desktop\comfyui_new\output` (different Windows user, not directly accessible)
+- Always fetch images via API (`/view?filename=`) and save to accessible path
+- Don't install packages in ComfyUI's venv without asking Jinay first
+- `flash-attn` can't be built on this machine (CUDA 12.8 vs torch 13.0 mismatch) — Z Image works without it

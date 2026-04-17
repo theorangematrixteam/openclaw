@@ -1,0 +1,62 @@
+{
+  "2": {
+    "inputs": {
+      "image": "IMG_5267.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "Load Image"
+    }
+  },
+  "3": {
+    "inputs": {
+      "overlay_resize": "Resize to width & heigth",
+      "resize_method": "nearest-exact",
+      "rescale_factor": 1,
+      "width": 1024,
+      "height": 1024,
+      "x_offset": 3000,
+      "y_offset": 0,
+      "rotation": 0,
+      "opacity": 0,
+      "base_image": [
+        "7",
+        0
+      ],
+      "overlay_image": [
+        "2",
+        0
+      ],
+      "optional_mask": [
+        "2",
+        1
+      ]
+    },
+    "class_type": "Image Overlay",
+    "_meta": {
+      "title": "Image Overlay"
+    }
+  },
+  "7": {
+    "inputs": {
+      "image": ""
+    },
+    "class_type": "ETN_LoadImageBase64",
+    "_meta": {
+      "title": "Load Image (Base64)"
+    }
+  },
+  "8": {
+    "inputs": {
+      "format": "PNG",
+      "images": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "ETN_SendImageWebSocket",
+    "_meta": {
+      "title": "Send Image (WebSocket)"
+    }
+  }
+}

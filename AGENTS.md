@@ -52,6 +52,13 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## Context Management
+
+- **Monitor context usage.** When approaching ~75% of context window, summarize key points and save to memory files before the context gets compacted automatically.
+- **Write summaries to `memory/today.md`** so nothing is lost when compaction happens.
+- **Keep replies concise.** Don't dump walls of text. Bullet points, short sentences.
+- **Heartbeat replies especially** should be minimal — just flag what needs attention, nothing more.
+
 ## Gateway Restarts
 
 **CRITICAL: I am INSIDE the gateway. If I stop it, I stop.**

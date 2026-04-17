@@ -92,4 +92,28 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
-Add whatever helps you do your job. This is your cheat sheet.
+## ComfyUI (Local Image Generation)
+
+- **Port:** 8000 (not default 8188)
+- **GPU:** RTX 5090 (32GB VRAM)
+- **MCP:** Configured in openclaw.json under `mcp.servers.ComfyUI`
+- **Skill:** `skills/canva/SKILL.md` has full working workflow + all tools
+- **Models:**
+  - `z_image_turbo_bf16.safetensors` (diffusion_models/z-image/)
+  - `qwen_3_4b.safetensors` (text_encoders/)
+  - `ae.safetensors` (vae/)
+- **Output dir:** `C:\Users\USER\Desktop\comfyui_new\output` (not directly accessible)
+- **Fetch images via API:** `GET http://localhost:8000/view?filename=<name>` then save locally
+- **Save locally to:** `C:\Users\openclaw.BILLION-DOLLAR-\Documents\ComfyUI\output\`
+- **Cold start:** ~52s | **Cached models:** ~6-28s per image
+- **Known issue:** `flash-attn` can't build (CUDA 12.8 vs torch 13.0) — models work without it
+- **Don't install packages without asking Jinay**
+
+## Canva (Design Platform)
+
+- **MCP:** Configured in openclaw.json under `mcp.servers.Canva`
+- **OAuth:** Already authorized
+- **Canva Pro** (₹799/mo) required for "Generate design" feature
+- **Skill:** `skills/canva/SKILL.md` has all tools and workflows
+- **Folder:** "Orange Matrix" created in root
+- **Full pipeline:** ComfyUI generates image → upload to Canva → create/export design

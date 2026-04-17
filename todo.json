@@ -135,15 +135,15 @@
     },
     {
       "id": "T012",
-      "text": "Create and change photos for Yashvi",
+      "text": "Create and change photos for Yashvi (Orikai founder)",
       "quadrant": 1,
       "quadrant_label": "Do Now",
       "created": "2026-04-14T11:35:00+05:30",
       "due": "2026-04-14",
-      "done": false,
-      "done_at": null,
-      "tags": ["client", "design"],
-      "notes": "50% done, remaining tomorrow"
+      "done": true,
+      "done_at": "2026-04-15T18:45:00+05:30",
+      "tags": ["client", "design", "orikai"],
+      "notes": "Done, shared — waiting for Yashvi's approval"
     },
     {
       "id": "T013",
@@ -171,15 +171,15 @@
     },
     {
       "id": "T015",
-      "text": "Make revisions and share with Yashvi",
+      "text": "Make revisions and share with Yashvi (Orikai founder)",
       "quadrant": 1,
       "quadrant_label": "Do Now",
       "created": "2026-04-14T18:20:00+05:30",
       "due": "2026-04-15",
-      "done": false,
-      "done_at": null,
-      "tags": ["client", "design", "revenue"],
-      "notes": "MONEY FIRST — paid client work"
+      "done": true,
+      "done_at": "2026-04-15T18:45:00+05:30",
+      "tags": ["client", "design", "orikai", "revenue"],
+      "notes": "Done — waiting for approval"
     },
     {
       "id": "T016",
@@ -212,10 +212,118 @@
       "quadrant_label": "Schedule",
       "created": "2026-04-14T14:21:00+05:30",
       "due": "2026-04-15T12:00:00+05:30",
+      "done": true,
+      "done_at": "2026-04-15T12:30:00+05:30",
+      "tags": ["hiring"],
+      "notes": "Interview completed"
+    },
+    {
+      "id": "T019",
+      "text": "72 images for Totsburg — new order",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-15T18:45:00+05:30",
+      "due": null,
+      "done": true,
+      "done_at": "2026-04-17T10:12:00+05:30",
+      "tags": ["client", "revenue", "totsburg"],
+      "notes": "72 images done. Now need to quote catalogue charges."
+    },
+    {
+      "id": "T020",
+      "text": "Proofit revisions for Priyal",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-15T18:45:00+05:30",
+      "due": null,
+      "done": true,
+      "done_at": "2026-04-15T18:45:00+05:30",
+      "tags": ["client", "proofit", "revenue"],
+      "notes": "Done — Priyal's revisions completed"
+    },
+    {
+      "id": "T021",
+      "text": "Quote Totsburg for catalogue",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-17T10:12:00+05:30",
+      "due": null,
+      "done": true,
+      "done_at": "2026-04-17T14:10:00+05:30",
+      "tags": ["client", "revenue", "totsburg"],
+      "notes": "Quote shared with Naman — waiting for response"
+    },
+    {
+      "id": "T022",
+      "text": "Notch India — close down work + modify monthly planner for 21st start",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-17T10:12:00+05:30",
+      "due": "2026-04-17",
+      "done": true,
+      "done_at": "2026-04-17T17:22:00+05:30",
+      "tags": ["client", "revenue", "notch-india"],
+      "notes": "Planner modified for Apr 21 start. Haven't posted anything yet. Start posting from Apr 21."
+    },
+    {
+      "id": "T023",
+      "text": "Connect Notch India Instagram to Metricool",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-17T10:12:00+05:30",
+      "due": null,
+      "done": false,
+      "done_at": null,
+      "tags": ["client", "notch-india", "tools"],
+      "notes": ""
+    },
+    {
+      "id": "T024",
+      "text": "Message Yashvi — ask how she liked the photos",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-17T10:12:00+05:30",
+      "due": null,
+      "done": true,
+      "done_at": "2026-04-17T17:22:00+05:30",
+      "tags": ["client", "orikai", "follow-up"],
+      "notes": "Sent — waiting for Yashvi's feedback"
+    },
+    {
+      "id": "T025",
+      "text": "Break down Orange Matrix social media presence plan",
+      "quadrant": 2,
+      "quadrant_label": "Schedule",
+      "created": "2026-04-17T10:12:00+05:30",
+      "due": "2026-04-17",
+      "done": false,
+      "done_at": null,
+      "tags": ["own-brand", "content"],
+      "notes": ""
+    },
+    {
+      "id": "T026",
+      "text": "Call 3 prospects from Naukri.com for open position",
+      "quadrant": 2,
+      "quadrant_label": "Schedule",
+      "created": "2026-04-17T10:12:00+05:30",
+      "due": "2026-04-17",
       "done": false,
       "done_at": null,
       "tags": ["hiring"],
-      "notes": "Meet link: https://meet.google.com/yvk-cpty-jwn | Mob: 8850584259 — long-term revenue enabler"
+      "notes": ""
+    },
+    {
+      "id": "T027",
+      "text": "Create Totsburg catalogue (72 images, 2 categories, PDF, brand page done)",
+      "quadrant": 1,
+      "quadrant_label": "Do Now",
+      "created": "2026-04-17T15:32:00+05:30",
+      "due": null,
+      "done": false,
+      "done_at": null,
+      "tags": ["client", "revenue", "totsburg"],
+      "notes": "Cover + brand page already done. Need product pages for 72 images in 2 categories. PDF format."
     }
     }
 }
