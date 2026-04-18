@@ -272,10 +272,10 @@
       "quadrant_label": "Do Now",
       "created": "2026-04-17T10:12:00+05:30",
       "due": null,
-      "done": false,
-      "done_at": null,
+      "done": true,
+      "done_at": "2026-04-18T17:16:00+05:30",
       "tags": ["client", "notch-india", "tools"],
-      "notes": ""
+      "notes": "Done"
     },
     {
       "id": "T024",
@@ -285,9 +285,9 @@
       "created": "2026-04-17T10:12:00+05:30",
       "due": null,
       "done": true,
-      "done_at": "2026-04-17T17:22:00+05:30",
+      "done_at": "2026-04-18T17:16:00+05:30",
       "tags": ["client", "orikai", "follow-up"],
-      "notes": "Sent — waiting for Yashvi's feedback"
+      "notes": "Done — waiting for Yashvi's feedback"
     },
     {
       "id": "T025",
@@ -308,10 +308,10 @@
       "quadrant_label": "Schedule",
       "created": "2026-04-17T10:12:00+05:30",
       "due": "2026-04-17",
-      "done": false,
-      "done_at": null,
+      "done": true,
+      "done_at": "2026-04-18T17:16:00+05:30",
       "tags": ["hiring"],
-      "notes": ""
+      "notes": "Done"
     },
     {
       "id": "T027",
@@ -320,10 +320,10 @@
       "quadrant_label": "Do Now",
       "created": "2026-04-17T15:32:00+05:30",
       "due": null,
-      "done": false,
-      "done_at": null,
+      "done": true,
+      "done_at": "2026-04-18T17:16:00+05:30",
       "tags": ["client", "revenue", "totsburg"],
-      "notes": "Cover + brand page already done. Need product pages for 72 images in 2 categories. PDF format."
+      "notes": "Done — waiting for revision/approval from Naman"
     }
     }
 }

@@ -4,6 +4,16 @@ Condensed session summaries for quick context.
 
 ---
 
+## 2026-04-18 — Totsburg catalogue, WebP batch, product names
+
+- Batch converted 72 PNG→WebP for Totsburg (~1GB→60MB), uploaded to Drive
+- Generated 72 product names (easy kid-themed: Tiny Star, Baby Bloom) and wrote to sheet
+- Connected Notch India IG to Metricool; called Naukri prospects
+- Totsburg catalogue created, Orikai photos done — both awaiting approval
+- Metricool refund received
+
+---
+
 ## 2026-04-17 — Totsburg order, Buffer GraphQL, Model update
 
 - Completed 72 images for Totsburg; sent catalogue quote to Naman

@@ -1,0 +1,24 @@
+const { execFileSync } = require('child_process');
+
+const values = [
+  ["Clothing","DEFKIDD","Streetwear","Akshay","Ahlawat","Co-Founder","hello@defkidd.com","","https://linkedin.com/in/akshay-ahlawat","https://instagram.com/defkidd.official","https://defkidd.com","Bootstrapped","Brand new streetwear label (founded 2025); needs full content and social buildout","High","Not Contacted","","Research and reach out","Co-founded with Montu Tomar; contemporary streetwear; just launched April 2026","Passionate in Marketing"],
+  ["Clothing","WearDuds","Streetwear (Joggers/Hoodies)","Sikandar","Ali","Founder and CEO","support@wearduds.com","","https://linkedin.com/in/sikandar-ali-duds","https://instagram.com/wearduds","https://wearduds.com","Bootstrapped","Homegrown streetwear D2C; needs consistent content to grow social presence","High","Not Contacted","","Research and reach out","South Delhi; manufacturing-first brand; joggers and track pants focus","LinkedIn"],
+  ["Clothing","BITCHN","Streetwear","TBD","TBD","Founder","help@thebitchn.com","","","https://instagram.com/bitchn.official","https://thebitchn.com","Bootstrapped","New Indian streetwear brand; needs content to stand out in crowded streetwear market","Medium","Not Contacted","","Research and reach out","Premium pricing (Rs 2990-4490); sweatshirts, tees, denim; growing collection","thebitchn.com"],
+  ["Clothing","Lemonaed","Streetwear","TBD","TBD","Founder","lemonaedteam@gmail.com","","","https://instagram.com/lemonaed.in","https://lemonaed.in","Bootstrapped","Streetwear brand with global shipping; needs content strategy to scale","Medium","Not Contacted","","Research and reach out","T-shirts, crewnecks, knitwear; ships globally; customer.lemonaed@gmail.in for support","lemonaed.in"],
+  ["Clothing","Nishorama","Ethnic Wear (Gen-Z)","Ramnek","Chhipa","Founder and CEO","hello@nishorama.com","","https://linkedin.com/in/ramnek-chhipa-992971179","https://instagram.com/nishorama","https://nishorama.com","Bootstrapped","Gen-Z ethnic wear brand hit 5Cr in 8 months; needs content to sustain growth","High","Not Contacted","","Research and reach out","Co-founder Ria Mehta; Mumbai; Jaipur roots; block print focus; Imperial Business School","LinkedIn"],
+  ["Clothing","Blithe Wear","Casual/Chikankari","Dhruv","Gulati","Founder","support@blithewear.com","","https://linkedin.com/in/dhruv-gulati-801789229","https://instagram.com/blithewear","https://blithewear.com","Bootstrapped","Young founder building quirky tees and chikankari kurtas; needs social content","Medium","Not Contacted","","Research and reach out","22-year-old founder; Delhi based; quirky t-shirts plus heritage Chikankari","LinkedIn"],
+  ["Clothing","Karles","Menswear (Indigenous Craft)","Angom","Dhaneshwor Singh","Founder","","","https://linkedin.com/in/angom-dhaneshwor","https://instagram.com/karles.official","https://karles.in","Bootstrapped","New voice in Indian menswear rooted in indigenous craftsmanship; needs brand storytelling","High","Not Contacted","","Research and reach out","Designer from Manipur; est 2025; memor and indigenous craft menswear; Yatra platform","Indulge Express"],
+  ["Clothing","Label Kariya","Ethnic Fusion","TBD","TBD","Founder","","","","https://instagram.com/label.kariya","https://labelkariya.com","Bootstrapped","New ethnic fusion brand; needs content to establish identity","Medium","Not Contacted","","Research and reach out","Unisex and mens collection; free shipping; growing product line","labelkariya.com"],
+  ["Clothing","Sharmeeli","Ethnic Wear","Shruti","Gochhwal","Founder","hello@sharmeeli.in","","https://linkedin.com/in/shrutigochhwal","https://instagram.com/sharmeeli.in","https://sharmeeli.in","Bootstrapped","New D2C ethnic wear brand; needs content and social presence to launch strong","High","Not Contacted","","Research and reach out","Forbes Asia 30 under 30; ex-Zappfresh co-founder; Delhi based","Sahyadri Startups"],
+  ["Clothing","The Urban Twine","Indo-Western","TBD","TBD","Founder","","","","https://instagram.com/theurbantwine","https://theurbantwine.com","Bootstrapped","Indo-western wear brand; needs content to reach Indian audience from US base","Medium","Not Contacted","","Research and reach out","Seattle WA based but Indian roots; indo-western for modern women; DM to order model","theurbantwine.com"]
+];
+
+const jsonStr = JSON.stringify(values);
+const result = execFileSync('gog', [
+  'sheets', 'append',
+  '1FUPdVgiUXNbq4IbhlVbYNXINrx9Cg300C2QhqsiSFcQ',
+  'Outbound!A2',
+  '--values-json', jsonStr,
+  '--insert', 'INSERT_ROWS'
+], { encoding: 'utf8', timeout: 30000 });
+console.log(result);

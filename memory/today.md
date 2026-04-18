@@ -1,38 +1,29 @@
-# 2026-04-17 — Session Summary
+# 2026-04-18 — Session Summary
 
 ## Accomplishments
-- Totsburg 72 images completed ✅
-- Totsburg catalogue quote sent to Naman ✅
-- Orikai photos sent to Yashvi for approval ✅
-- Notch India monthly planner modified for Apr 21 start ✅
-- ComfyUI Z-Image workflow built and tested (toddler kidswear image generated)
-- Buffer API migrated from REST to GraphQL (old /1/ endpoints dead)
-- Interview questions for intern created
-- Model config unified: GLM-5.1 all tasks, gemma4:30b cloud for vision
-- Fixed Yashvi ≠ Priyal mixup (Yashvi = Orikai founder, Priyal = Proofit founder)
+- Batch converted 72 Totsburg PNGs → WebP (~1GB → ~60MB) and uploaded to Drive ✅
+- Generated 72 product names and wrote to Totsburg's Google Sheet ✅
+- Connected Notch India Instagram to Metricool ✅
+- Totsburg catalogue created — waiting for approval ✅
+- Called Naukri prospects ✅
+- Orikai photos done — waiting for Yashvi ✅
+- Metricool refund received ✅
 
 ## Decisions
-- Totsburg catalogue: charge per page (₹1000/page suggested), not flat fee
-- Buffer API now uses GraphQL at https://api.buffer.com with POST + JSON
-- Per-page pricing is more professional than flat fee for catalogues
+- Product names style: short 1-2 word, easy for Indian uncles, kid-themed (Tiny Star, Baby Bloom, etc.)
+- Infant Jacket Suits get "active/fun" names (Sky Rider, Cool Dude)
+- Baba Suits get "soft/sweet" names (Soft Touch, Cuddle Star)
 
 ## Files Modified
-- todo.json (T019-T027)
-- USER.md (model rules updated: GLM-5.1 + gemma4:30b cloud only)
-- skills/instagram-fetcher/SKILL.md (env var reference)
-- TOOLS.md (all keys → env var references)
-- scripts/*.ps1 + *.js (Buffer token → env var)
+- todo.json (T023, T024, T026, T027 marked done)
 
-## Pending Tomorrow (Apr 18)
-- T023 — Connect Notch India IG to Metricool
-- T025 — Break down OM social media presence plan
-- T026 — Call 3 Naukri prospects
-- T027 — Create Totsburg catalogue (72 images, 2 categories, PDF)
+## Pending Next Week
+- T025 — OM social media presence plan
 - T016 — Share reel with Notch India
-- Waiting: Totsburg catalogue quote response (Naman)
+- Waiting: Totsburg catalogue approval (Naman)
 - Waiting: Orikai photo approval (Yashvi)
 
 ## Learnings
-- Buffer API fully migrated to GraphQL — old REST /1/ endpoints return "Unsupported Content-Type"
-- Always check ComfyUI model paths with backslashes on Windows (z-image\\ not z-image/)
-- Verify full metadata before reporting (e.g. post type = reel vs post)
+- gog sheets update with --values-json has quoting issues in PowerShell — use inline comma-separated values format instead
+- FFmpeg Start-Process produces verbose output — use -NoNewWindow -Wait for cleaner runs
+- Google Drive API needs re-auth when tokens expire — run `gog auth add` again
