@@ -84,6 +84,15 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## Client Retention & Management System
+
+- **Sheet ID:** 1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI
+- **URL:** https://docs.google.com/spreadsheets/d/1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI/edit
+- **Tabs:** Client Database, Payment Tracker, Health Monitor, Delivery Log, Follow-up Queue, Lifecycle Tracker, Communication Log
+- **Sync:** Reads from Core sheet Clients tab + Money Manager
+
+---
+
 ## Content Tracker
 
 - **Master Tracker:** https://docs.google.com/spreadsheets/d/1r88lan_EraSgY0vkZiDEJ8DCctubtMFzmbplLimw550/edit
@@ -108,6 +117,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **Cold start:** ~52s | **Cached models:** ~6-28s per image
 - **Known issue:** `flash-attn` can't build (CUDA 12.8 vs torch 13.0) — models work without it
 - **Don't install packages without asking Jinay**
+- **Save Z-Image outputs to:** `Desktop\ComfyUi_Python_new\outputs\z-image-generations`
+- **Save upscaled images to:** `Desktop\ComfyUi_Python_new\outputs\upscaled_images`
+- **QC pipeline:** qwen3.5:9b vision model reviews images for disfigurement, text artifacts, weird clothing
+- **Taste profile:** `memory/jinay-visual-taste.md` — always reference before generating
+- **Auto-start ComfyUI:** `Start-Process "C:\Users\openclaw.BILLION-DOLLAR-\AppData\Local\Programs\ComfyUI\ComfyUI.exe"`
 
 ## Canva (Design Platform)
 

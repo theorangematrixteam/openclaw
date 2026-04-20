@@ -2776,3 +2776,84 @@ Significant share of B2B buyers start research in AI tools (ChatGPT, Perplexity,
 Content that answers definitively in first paragraph is more likely surfaced in AI overviews.
 
 ---
+
+## 18. LinkedIn Growth Fundamentals (2026 Algorithm)
+
+### The Three-Stage Distribution System
+
+1. **Initial Distribution (0-60 min)**: Post shown to 2-5% of network. If 5-10% engage → advances. Below 2% = post dies.
+2. **Expanded Distribution (1-6 hrs)**: Shown to 10-20% of network + 2nd-degree connections. Dwell time + comment quality are key.
+3. **Viral Distribution (6+ hrs)**: Top <1% posts reach outside your network. Sustained engagement required.
+
+### 7 Ranking Signals (by weight)
+
+1. **Dwell Time (Highest)**: How long users read. 30+ seconds = high value. Write 150-300 words, force "see more" click, line breaks every 1-2 sentences.
+2. **Comment Quality (Very High)**: LinkedIn NLP analyzes comment substance. "Great post!" = minimal. Specific details/experiences = 3-5x weight. End posts with specific questions.
+3. **Shares/Reposts (High)**: Shares with commentary > simple reposts. Creates organic reach amplification.
+4. **Engagement Rate (High)**: (likes+comments+shares)/impressions. 10% from 1K impressions > 5% from 10K impressions. Density > absolute numbers.
+5. **Author Authority (Medium)**: Historical performance + consistency. 3-5x weekly minimum. One niche.
+6. **Relevance Signals (Medium)**: Semantic understanding matches post to user interests. Use industry terminology naturally.
+7. **Likes (Lower than you think)**: Easy action, low signal. 50 likes + 10 substantive comments > 200 likes + 3 generic comments.
+
+### Negative Signals (Kill Reach)
+
+- **External links in post body**: -50-70% reach. Put link in first comment instead.
+- **Engagement bait**: "Tag someone" / "Like if you agree" triggers detection.
+- **Rapid posting**: Multiple posts in few hours = spam detection.
+- **Low dwell time patterns**: Consistently getting likes without reading = low quality signal.
+- **AI content detection (2026)**: Generic AI without personal details gets throttled.
+- **Engagement pods**: 97% detection accuracy. Permanent reach reduction.
+
+### Content Type Performance
+
+| Type | Reach | Engagement Rate | Best For |
+|------|------|----------------|----------|
+| Text-only (no media) | Highest | 6-8% | Insights, contrarian takes, lessons |
+| PDF Carousel | High | 5-7% | Frameworks, step-by-step, data viz |
+| Single Image | Moderate | 4-5% | Charts, screenshots, infographics |
+| Native Video | Lower reach, high dwell time | 3-4% | Tutorials, demos, interviews |
+| Link Posts | Lowest | 1-2% | Avoid in post body |
+
+### Timing
+
+- **Best days**: Tue-Thu
+- **Best times**: 7-9am or 12-1pm (audience timezone)
+- **Avoid**: Weekends/evenings (40-60% lower)
+- **Frequency**: 3-5x weekly > daily with low engagement
+
+### Strategic Commenting (Underrated)
+
+- Comment on posts from accounts 2-10x your size
+- Comment within 30 min of posting
+- Add genuine value (50+ words, specific details)
+- 10-15 comments/day → 50-100 profile visits/day → 10-20 new followers/week
+
+### Post Structure for Maximum Dwell Time
+
+```
+Line 1-2: Hook (specific, curiosity-driving)
+Line 3-8: Context (set up problem, use data)
+Line 9-15: Insight (deliver payoff, unique perspective)
+Last line: CTA (specific question, not "what do you think?")
+```
+
+### Key 2026 Algorithm Changes
+
+- Semantic understanding: LinkedIn understands meaning, not just keywords. Keyword stuffing dead.
+- AI detection: Generic AI content throttled. Add personal stories + specific data.
+- Comment quality: <10 word comments carry minimal weight.
+- Hashtags: Minimal impact. 0-2 is fine. Don't expect reach boost.
+- Follower quality > quantity: 1K engaged > 10K passive.
+
+### Action Plan for Orange Matrix on LinkedIn
+
+1. Text-only posts with founder stories from agency building
+2. Carousels showing before/after client work
+3. No external links in posts (put in comments)
+4. Reply to every comment within 30 min
+5. Strategic commenting on 10-15 posts/day in marketing/agency niche
+6. Post 3-5x weekly at optimal IST times
+7. Always end with specific questions
+8. Share real client results with specific numbers
+
+---

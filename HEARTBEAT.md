@@ -6,6 +6,7 @@
 2. **Client Status** — Any overdue or stuck items? (via client-tracker skill)
 3. **Follow-ups** — Any approvals pending > 2 days? (via follow-up-engine skill)
 4. **Calendar** — Any events in next 24h? (via gog)
+5. **OpenClaw Updates** — Check `npm view openclaw version` vs `npm list -g openclaw`. If newer version available, alert Jinay but do NOT auto-update (requires gateway restart).
 
 ## Alive Ping
 

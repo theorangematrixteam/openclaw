@@ -1,0 +1,90 @@
+# Jinay's Visual Taste Profile
+
+Built from sorting generated images into "good taste" and "bad taste" folders on 2026-04-19.
+
+## ✅ GOOD TASTE — What Jinay Likes
+
+### Lighting
+- **Bright, direct natural sunlight** — not diffused, not overcast
+- **High contrast** — dark shadows against bright highlights
+- **Lens flares, sparkles, specular highlights** — light interacting with water, glass, skin
+- **Side/rim lighting** that sculpts the subject
+- **Golden hour warmth** preferred over flat midday light
+
+### Color
+- **Saturated and vibrant** — deep turquoise water, bronzed skin, vivid reds
+- **Cool blue + warm gold** complementary palette (ocean + sunlight)
+- **Accent pops** — red against blue, green against grey
+- NOT washed-out, NOT pastel-dominant, NOT muted
+
+### Mood
+- **Aspirational luxury** — sells a dream of travel, exclusivity, summer
+- **Dreamy & romantic** — bokeh, soft focus in backgrounds, ethereal sparkle
+- **Confident & playful** subjects — not stiff, not overly posed
+
+### Composition
+- **Clean, uncluttered** — nature as backdrop (ocean, sky, beach)
+- **Vertical orientation** — emphasizes height and subject presence
+- **Central or slightly off-center** subject with breathing room
+- **Shallow depth of field** — subject sharp, background softly blurred
+
+### Camera
+- **Eye-level to slightly low angle** — makes subjects look commanding
+- **NOT flat lay / overhead** for people
+- **NOT extreme high angles looking down**
+
+### Backgrounds
+- **Nature-centric** — coastal, ocean, beaches, skies
+- **Atmospheric weather** — sunny skies, shimmering water, dramatic storm clouds
+- **NOT studio flat lays**, NOT marble/stone surfaces for people
+- **NOT plain white backgrounds** (too boring/clinical)
+
+---
+
+## ❌ BAD TASTE — What Jinay Doesn't Like
+
+### Lighting
+- **Soft, diffused, flat lighting** — no drama, no sparkle
+- **Overcast/cloudy ambient light** — too moody, not enough energy
+- **Standard flattering light** — too safe, looks like stock photography
+
+### Color
+- **Restricted harmonious palettes** — too tasteful, not exciting enough
+- **Pastel/soft pink tones** — feels weak, not bold
+- **Monochromatic or desaturated** — boring, lacks punch
+
+### Mood
+- **Serene, still, quiet** — too calm, not enough energy
+- **"Expensive simplicity"** — feels like cliché Instagram aesthetic
+- **Overly posed/stiff** subjects
+
+### Composition
+- **Flat lay / top-down** — Jinay clearly doesn't like this angle for products
+- **Standard eye-level** without drama — too safe
+- **Too many props** (petals, rings, ribbons) — cluttered, not clean
+
+### Camera
+- **Standard angles** — no unique perspective, looks generic
+- **"Flattering" angles** — too conventional, lacks creativity
+
+### Backgrounds
+- **Marble, stone, silk fabric** — feels staged, not natural enough
+- **White/plain backgrounds** — clinical, boring
+- **Textured indoor surfaces** — not the aspirational outdoor vibe
+
+---
+
+## 🎯 Prompt Engineering Rules for Jinay's Taste
+
+1. **Always use bright natural sunlight** — mention "golden hour", "direct sunlight", "rim light"
+2. **High saturation** — "vivid", "saturated", "deep turquoise", "bronzed skin"
+3. **Nature backdrops only** — ocean, beach, sky, never studio/indoor
+4. **Add light interaction** — "sparkling water", "lens flare", "specular highlights"
+5. **Confident/playful poses** — not stiff, not "looking at camera blankly"
+6. **Low or eye-level angles** — never top-down flat lay
+7. **High contrast** — mention shadows, rim lighting, sculpted light
+8. **Vertical format** — portrait orientation
+9. **Shallow DOF** — subject sharp, background blurred
+10. **No props/staging clutter** — keep it clean and natural
+11. **Avoid:** flat lays, pastels, overcast lighting, marble/stone surfaces, diffused light
+12. **Vibe word:** "aspirational" not "serene"

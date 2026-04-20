@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-20T07:40:38.205Z",
+  "entries": {
+    "memory:memory/2026-04-11.md:1:34": {
+      "key": "memory:memory/2026-04-11.md:1:34",
+      "path": "memory/2026-04-11.md",
+      "startLine": 1,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "# 2026-04-11 ## Systems Built (FRIDAY Framework) - **Daily Briefing Skill** — upgraded 10:30 AM cron with emails, news, todos, client status, batches - **Eisenhower Todo System** — todo.json with 4 quadrants, natural language detection - **Client Tracker Skill** — reads Google Sheets, one-line status per client - **Follow-up Engine Skill** — flags stuck approvals, overdue items, unpaid invoices - **Financial Tracker Skill** — invoice/payment tracking (needs batch data) - **Proactive Actions Skill** — heartbeat rules for acting without being told - **Heartbeat config** — updated HEARTBEAT.md with check schedule ## Voice Comms (Discord Voice Plugin) - Installed discord-voice plugin v0.1.5 -",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T05:01:07.244Z",
+      "lastRecalledAt": "2026-04-20T05:01:07.244Z",
+      "queryHashes": [
+        "4cf59e491cca"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "todo.json",
+        "one-line",
+        "follow-up",
+        "invoice/payment",
+        "heartbeat.md",
+        "discord-voice",
+        "v0.1.5",
+        "systems"
+      ]
+    },
+    "memory:memory/2026-04-07.md:43:84": {
+      "key": "memory:memory/2026-04-07.md:43:84",
+      "path": "memory/2026-04-07.md",
+      "startLine": 43,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "5. Explored Postoria UI structure (Posts, Calendar, Accounts pages) 6. Successfully scheduled test Instagram post via browser automation **Post Content:** - Caption: \"This post was automatically scheduled by AI 🤖 Testing the automation workflow - from Discord command to scheduled Instagram post, all handled by OpenClaw.\" - Image: Downloaded from Google Drive (1I-Avsv5Tig132fvwQPoCF1aI29GyVD0p) - Scheduled for: 10:18 AM today - Account: Instagram - The Orange Matrix **Important:** Don't repeatedly log in/out of websites to avoid being flagged. Use saved session state. --- ## Apify Integration **Status:** Set up but not yet tested with real Instagram URLs. **API Key sto",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T06:18:27.915Z",
+      "lastRecalledAt": "2026-04-20T06:18:27.915Z",
+      "queryHashes": [
+        "9ef722ea7dd7"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "in/out",
+        "explored",
+        "postoria",
+        "structure",
+        "posts",
+        "calendar",
+        "accounts",
+        "pages"
+      ]
+    },
+    "memory:memory/2026-04-07.md:1:47": {
+      "key": "memory:memory/2026-04-07.md:1:47",
+      "path": "memory/2026-04-07.md",
+      "startLine": 1,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "# Memory - 2026-04-07 ## Postoria Scheduler Setup **Installed:** Playwright browser automation skill for Postoria scheduling. **Credentials stored in TOOLS.md:** - Postoria login: theorangematrixteam@gmail.com / OrangematrixPostoria123 - Auth state saved at: `scripts/postoria-auth.json` **Connected Accounts (5):** - 1 Pinterest - 2 LinkedIn - 1 Instagram (theorangematrix) - 1 X (Twitter) **Workflow:** 1. User shares content (caption + image) in Discord 2. AI generates Playwright script 3. Browser logs into Postoria using saved session 4. Creates post, selects accounts, sets date/time 5. Schedules it 6. Reports back to user **Script location:** `scripts/schedule-",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T06:18:27.915Z",
+      "lastRecalledAt": "2026-04-20T06:18:27.915Z",
+      "queryHashes": [
+        "9ef722ea7dd7"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "tools.md",
+        "gmail.com",
+        "scripts/postoria-auth.json",
+        "date/time",
+        "scripts/schedule",
+        "postoria",
+        "scheduler",
+        "setup"
+      ]
+    },
+    "memory:memory/2026-04-10.md:1:16": {
+      "key": "memory:memory/2026-04-10.md:1:16",
+      "path": "memory/2026-04-10.md",
+      "startLine": 1,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "# 2026-04-10 ## Whisper Setup - Installed whisper.cpp locally for audio transcription - Base.en model downloaded (~147MB) - Transcription speed: ~1.2s for 2s audio on CPU - Location: `tools/whisper/` - Script: `scripts/transcribe-audio.ps1` ## Lesson Learned - **NEVER send emails without Jinay's double confirmation.** Always draft first, show, wait for approval TWICE before sending. This is a hard rule. - **Always read everything in full.** Don't skim, don't truncate, don't assume. If an email/document is long, read all of it. Missing details = missing opportunities. ## TODO Tomorrow - [ ] Check the Instagram post Devi shared - [ ] Discuss setting up Sarah talking back (voice responses)",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T06:18:27.915Z",
+      "lastRecalledAt": "2026-04-20T06:18:27.915Z",
+      "queryHashes": [
+        "9ef722ea7dd7"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "whisper.cpp",
+        "base.en",
+        "1.2s",
+        "tools/whisper",
+        "scripts/transcribe-audio.ps1",
+        "email/document",
+        "whisper",
+        "setup"
+      ]
+    },
+    "memory:memory/2026-04-19.md:27:32": {
+      "key": "memory:memory/2026-04-19.md:27:32",
+      "path": "memory/2026-04-19.md",
+      "startLine": 27,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "- Jinay said to save and continue tomorrow on the CRMS discussion - All work saved to Google Sheets + TOOLS.md + memory - **Evolve & Palette Vibes**: At Risk, 49 days since last contact/delivery - urgent re-engagement needed - **Totsburg**: ₹8,100 receivable, payment follow-up due - **ProofIt**: Monthly system not fully set up yet - **4 warm leads** need outreach: Best Polymers, House of Pinerà, Estelle Jewels, Ravish (stalled)",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-20T07:40:38.205Z",
+      "lastRecalledAt": "2026-04-20T07:40:38.205Z",
+      "queryHashes": [
+        "7e589cbcf025"
+      ],
+      "recallDays": [
+        "2026-04-20"
+      ],
+      "conceptTags": [
+        "tools.md",
+        "contact/delivery",
+        "re-engagement",
+        "follow-up",
+        "jinay",
+        "said",
+        "save",
+        "continue"
+      ]
+    }
+  }
+}
