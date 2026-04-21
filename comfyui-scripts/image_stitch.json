@@ -1,0 +1,68 @@
+{
+  "1": {
+    "inputs": {"images": ["5", 0]},
+    "class_type": "PreviewImage",
+    "_meta": {"title": "Preview Image"}
+  },
+  "3": {
+    "inputs": {
+      "downscale_algorithm": "lanczos",
+      "upscale_algorithm": "lanczos",
+      "preresize": false,
+      "preresize_mode": "ensure minimum resolution",
+      "preresize_min_width": 1024,
+      "preresize_min_height": 1024,
+      "preresize_max_width": 16384,
+      "preresize_max_height": 16384,
+      "mask_fill_holes": true,
+      "mask_expand_pixels": 512,
+      "mask_invert": false,
+      "mask_blend_pixels": 64,
+      "mask_hipass_filter": 0.1,
+      "extend_for_outpainting": false,
+      "extend_up_factor": 1,
+      "extend_down_factor": 1,
+      "extend_left_factor": 1,
+      "extend_right_factor": 1,
+      "context_from_mask_extend_factor": 1,
+      "output_resize_to_target_size": true,
+      "output_target_width": 1080,
+      "output_target_height": 1920,
+      "output_padding": "0",
+      "device_mode": "gpu (much faster)",
+      "image": ["4", 0],
+      "mask": ["8", 1]
+    },
+    "class_type": "InpaintCropImproved",
+    "_meta": {"title": "Inpaint Crop"}
+  },
+  "4": {
+    "inputs": {"image": "Upscaled_RedBikini1.png"},
+    "class_type": "LoadImage",
+    "_meta": {"title": "Load Image"}
+  },
+  "5": {
+    "inputs": {"stitcher": ["3", 0], "inpainted_image": ["6", 0]},
+    "class_type": "InpaintStitchImproved",
+    "_meta": {"title": "Inpaint Stitch"}
+  },
+  "6": {
+    "inputs": {"image": "placeholder_edit.png"},
+    "class_type": "LoadImage",
+    "_meta": {"title": "Load Image"}
+  },
+  "8": {
+    "inputs": {
+      "prompt": "bikini",
+      "threshold": 0.5,
+      "min_width_pixels": 0,
+      "min_height_pixels": 0,
+      "use_video_model": false,
+      "unload_after_run": false,
+      "object_ids": "",
+      "image": ["4", 0]
+    },
+    "class_type": "SAM3Segmentation",
+    "_meta": {"title": "SAM3 Segmentation"}
+  }
+}

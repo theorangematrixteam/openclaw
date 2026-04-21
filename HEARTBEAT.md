@@ -1,5 +1,15 @@
 # HEARTBEAT.md — Proactive Check Schedule
 
+## Session Memory Save (every heartbeat)
+
+**ALWAYS do this first on every heartbeat:**
+- Append key progress/events from this session to `memory/YYYY-MM-DD.md`
+- Keep it brief — what was done, decisions made, files created/modified
+- This prevents data loss from context compaction
+- **Also save MEMORY.md if any significant rules or context changed this session**
+
+---
+
 ## Every heartbeat (rotate through these, don't do all every time):
 
 1. **Emails** — Any urgent unread messages? (via gog)

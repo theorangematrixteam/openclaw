@@ -1,0 +1,30 @@
+{
+  "4": {
+    "inputs": {
+      "image": "upscaled_zimage_South_Asian_toddler_boy_1_year_236329096211086669.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {"title": "Load Image"}
+  },
+  "20": {
+    "inputs": {
+      "image": ["4", 0],
+      "prompt": "shirt shorts clothing",
+      "threshold": 0.3,
+      "min_width_pixels": 0,
+      "min_height_pixels": 0,
+      "use_video_model": false,
+      "unload_after_run": true
+    },
+    "class_type": "SAM3Segmentation",
+    "_meta": {"title": "SAM3 Segment Clothing"}
+  },
+  "148": {
+    "inputs": {
+      "filename_prefix": "sam3_test",
+      "images": ["20", 0]
+    },
+    "class_type": "SaveImage",
+    "_meta": {"title": "Save Segmented Image"}
+  }
+}

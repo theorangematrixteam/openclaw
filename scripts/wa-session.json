@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "wa_ul",
+      "value": "9b75134a-e393-4d92-b65b-7a7c928797b9",
+      "domain": ".web.whatsapp.com",
+      "path": "/",
+      "expires": 1784542080.940634,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wa_web_lang_pref",
+      "value": "en_GB",
+      "domain": ".web.whatsapp.com",
+      "path": "/",
+      "expires": 1779185282,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://web.whatsapp.com",
+      "localStorage": [
+        {
+          "name": "WAUnknownID",
+          "value": "\"unknown-3738918821\""
+        },
+        {
+          "name": "RSTData",
+          "value": "{}"
+        },
+        {
+          "name": "WANoiseInfo",
+          "value": "{\"privKey\":\"WRGSy7ALJqS7DfUX4mVJtIAtd0rxR/IJ2ah3qYDZ+y5zXYHO67IjzzwFAJkmJO0V\",\"pubKey\":\"eqlNmJVWi2ZaBMwIoF9IqxrxRIcXRskiT70KntMhqp4+tKn+bOyD7dmwdr/zgYF8\",\"recoveryToken\":\"Fmmax51qfjqjIgdPs/nYto+guGpyYgRPd9AV+yyQK+s=\"}"
+        },
+        {
+          "name": "WALangPhonePref",
+          "value": "\"en_GB\""
+        },
+        {
+          "name": "WAWebWAMBeaconingSettings",
+          "value": "\"[{\\\"key\\\":\\\"regular\\\",\\\"ts\\\":1776766089,\\\"value\\\":null}]\""
+        },
+        {
+          "name": "WAWebEncKeySalt",
+          "value": "\"TLJEA3z+iH4dZllnkQQIAg4L4V8zEx3iXknPuWKIPBnWkrbMNShUhf2boeAlm9F6O94EZqSULGbnFNzj7erz/3HEWMkOgQ0ZDCUEcYb6PWov+GqTZDdilnoblCmvAj/lZeBXdqlqgFi7fj2VDi8XI3+ewn2POx5+f5dtX8HkrL4=\""
+        },
+        {
+          "name": "WebEncKeySalt",
+          "value": "\"TLJEA3z+iH4dZllnkQQIAg4L4V8zEx3iXknPuWKIPBnWkrbMNShUhf2boeAlm9F6O94EZqSULGbnFNzj7erz/3HEWMkOgQ0ZDCUEcYb6PWov+GqTZDdilnoblCmvAj/lZeBXdqlqgFi7fj2VDi8XI3+ewn2POx5+f5dtX8HkrL4=\""
+        },
+        {
+          "name": "Session",
+          "value": "a1lpqj:1776766115381"
+        },
+        {
+          "name": "WANoiseInfoIv",
+          "value": "[\"jOg1TpCybWUTFHVYOh+a0w==\",\"LYI8GaZRIpxG8MSTuD7HWA==\",\"QyLEhwmBZpajXicJa5FAAQ==\",\"LnoQq8wWmGveUpzHOPva6w==\"]"
+        },
+        {
+          "name": "banzai:last_storage_flush",
+          "value": "1776766084169.445"
+        },
+        {
+          "name": "whatsapp-mutex",
+          "value": "\"x248842265:init_1776766082720\""
+        }
+      ]
+    }
+  ]
+}

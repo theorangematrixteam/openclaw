@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-20T07:40:38.205Z",
+  "updatedAt": "2026-04-21T12:22:10.815Z",
   "entries": {
     "memory:memory/2026-04-11.md:1:34": {
       "key": "memory:memory/2026-04-11.md:1:34",
@@ -133,18 +133,23 @@
       "endLine": 32,
       "source": "memory",
       "snippet": "- Jinay said to save and continue tomorrow on the CRMS discussion - All work saved to Google Sheets + TOOLS.md + memory - **Evolve & Palette Vibes**: At Risk, 49 days since last contact/delivery - urgent re-engagement needed - **Totsburg**: ₹8,100 receivable, payment follow-up due - **ProofIt**: Monthly system not fully set up yet - **4 warm leads** need outreach: Best Polymers, House of Pinerà, Estelle Jewels, Ravish (stalled)",
-      "recallCount": 1,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 5,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-20T07:40:38.205Z",
-      "lastRecalledAt": "2026-04-20T07:40:38.205Z",
+      "lastRecalledAt": "2026-04-21T10:37:02.256Z",
       "queryHashes": [
-        "7e589cbcf025"
+        "7e589cbcf025",
+        "3421bb0b6d2f",
+        "e7548f9f0070",
+        "e6d6539bcded",
+        "80aac21b72a4"
       ],
       "recallDays": [
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-21"
       ],
       "conceptTags": [
         "tools.md",
@@ -155,6 +160,475 @@
         "said",
         "save",
         "continue"
+      ]
+    },
+    "memory:memory/2026-04-19.md:1:31": {
+      "key": "memory:memory/2026-04-19.md:1:31",
+      "path": "memory/2026-04-19.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "# 2026-04-19 ## Payments Received - Orikai: ₹4,800 (product shoot) - Hach Styles: ₹3,700 (content creation) - MariGold: ₹300 (product shoot) - Updated Core sheet Clients tab + Money Manager tab ## Client Retention & Management System - BUILT - New Google Sheet: \"Client Retention & Management System\" - Sheet ID: 1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI - URL: https://docs.google.com/spreadsheets/d/1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI/edit - 7 tabs created and populated: 1. **Client Database** - 14 clients with full details, lifecycle stage, health, contact 2. **Payment Tracker** - All invoices/receivables with aging buckets 3. **Health Monitor** - Health scores, risk trigg",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:09.175Z",
+      "lastRecalledAt": "2026-04-21T06:04:10.274Z",
+      "queryHashes": [
+        "3421bb0b6d2f",
+        "e7548f9f0070",
+        "e6d6539bcded"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "invoices/receivables",
+        "payments",
+        "received",
+        "orikai",
+        "4,800",
+        "product",
+        "shoot",
+        "hach"
+      ]
+    },
+    "memory:memory/2026-04-17.md:1:21": {
+      "key": "memory:memory/2026-04-17.md:1:21",
+      "path": "memory/2026-04-17.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "# 2026-04-17 Memory ## ComfyUI Python Scripts Project - Jinay had existing Python scripts for ComfyUI API automation in `C:\\Users\\openclaw.BILLION-DOLLAR-\\Desktop\\ComfyUi_Python_new\\` - Original scripts were for a different ComfyUI (port 8188, paths under `C:\\Users\\USER\\...`) - Adapted the Z-Image txt2img workflow for our setup (port 8000, our model paths) - Created `comfyui-scripts/z_image_turbo.py` and `comfyui-scripts/z_image_turbo.json` in workspace - Key changes from original: - Port 8188 → 8000 - Removed LoRA node (node 48 - notch_india_background LoRA, we don't have it) - ModelSamplingAuraFlow now connects directly to UNETLoader (node 47 ← 46 instead of 47 ← 48) - Replaced `E",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:09.175Z",
+      "lastRecalledAt": "2026-04-21T06:01:51.022Z",
+      "queryHashes": [
+        "3421bb0b6d2f",
+        "135686118c58"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "openclaw.billion-dollar",
+        "comfyui-python-new",
+        "z-image",
+        "comfyui-scripts/z-image-turbo.py",
+        "notch-india-background",
+        "comfyui",
+        "python",
+        "scripts"
+      ]
+    },
+    "memory:memory/2026-04-21.md:1:14": {
+      "key": "memory:memory/2026-04-21.md:1:14",
+      "path": "memory/2026-04-21.md",
+      "startLine": 1,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "# 2026-04-21 ## Morning Status - Gateway restarted, all services normal - Discord voice auto-join failed (normal — nobody in channel) - MEMORY.md created (was missing) - OpenClaw 2026.4.15 running ## Today's Tasks (from todo.json) - T032: Share Proofit monthly plan with Priyal - T037: Schedule Notch India content - T038: Buy Metricool + create Notch India accounts - T039: Finish Totsburg catalogue - T040: Contact prospect hires + book meetings",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:41.672Z",
+      "lastRecalledAt": "2026-04-21T06:04:10.274Z",
+      "queryHashes": [
+        "e7548f9f0070",
+        "e6d6539bcded"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "auto-join",
+        "memory.md",
+        "2026.4.15",
+        "todo.json",
+        "morning",
+        "status",
+        "restarted"
+      ]
+    },
+    "memory:memory/2026-04-17.md:29:44": {
+      "key": "memory:memory/2026-04-17.md:29:44",
+      "path": "memory/2026-04-17.md",
+      "startLine": 29,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "- `comfyui-tooling-nodes` → provides ETN_LoadImageBase64 + ETN_SendImageWebSocket (from https://github.com/Acly/comfyui-tooling-nodes) - `efficiency-nodes-comfyui` → provides Image Overlay node (from https://github.com/jamesWalker55/comfyui-efficiency-nodes) - Both cloned to `C:\\Users\\openclaw.BILLION-DOLLAR-\\Documents\\ComfyUI\\custom_nodes\\` - efficiency-nodes needed `shapely` installed via pip in ComfyUI's Python - **Script created:** `comfyui-scripts/logo_paster.py` — uses original workflow JSON, no modifications - **Key technical details:** - ETN_LoadImageBase64 takes a base64-encoded string (not a filename) — script encodes the base image as base64 - ETN_SendImageWebSocket se",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:51.022Z",
+      "lastRecalledAt": "2026-04-21T06:01:51.022Z",
+      "queryHashes": [
+        "135686118c58"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "comfyui-tooling-nodes",
+        "etn-loadimagebase64",
+        "etn-sendimagewebsocket",
+        "efficiency-nodes-comfyui",
+        "openclaw.billion-dollar",
+        "custom-nodes",
+        "efficiency-nodes",
+        "comfyui-scripts/logo-paster.py"
+      ]
+    },
+    "memory:memory/2026-04-16.md:1:12": {
+      "key": "memory:memory/2026-04-16.md:1:12",
+      "path": "memory/2026-04-16.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-04-16 Memory ## ComfyUI Kidswear Catalogue Project - Jinay is building a kidswear catalogue using AI-generated images of South Asian toddler boys (1 year old) on white studio backgrounds - Using Z Image Turbo model with Qwen 3 4B text encoder, res_multistep sampler, 9 steps, CFG 1 - Resolution changed from 1088x1344 (9:16 portrait) to 1152x1152 (1:1 square) per Jinay's request - Working workflow uses: UNETLoader (z-image\\z_image_turbo_bf16.safetensors), CLIPLoader (qwen_3_4b.safetensors, type lumina2), VAELoader (ae.safetensors), ModelSamplingAuraFlow (shift 3), ConditioningZeroOut for negative, KSampler (res_multistep/simple/9steps/cfg1) - **Important**: Model path must use `z-image",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:51.022Z",
+      "lastRecalledAt": "2026-04-21T06:01:51.022Z",
+      "queryHashes": [
+        "135686118c58"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "ai-generated",
+        "res-multistep",
+        "z-image",
+        "z-image-turbo-bf16.safetensors",
+        "qwen-3-4b.safetensors",
+        "ae.safetensors",
+        "res-multistep/simple/9steps/cfg1",
+        "comfyui"
+      ]
+    },
+    "memory:memory/2026-04-15.md:1:29": {
+      "key": "memory:memory/2026-04-15.md:1:29",
+      "path": "memory/2026-04-15.md",
+      "startLine": 1,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "# 2026-04-15 ## ComfyUI Integration - Installed ComfyUI Desktop on this machine - ComfyUI running on port **8000** (not default 8188) - RTX 5090 detected (32GB VRAM, ~30GB free) - Added ComfyUI MCP server to OpenClaw config (`comfyui-mcp` npm package) - Models installed: - **z_image_turbo_bf16** (11.7GB) — diffusion model in `models/diffusion_models/z-image/` - **qwen_3_4b** (7.7GB) — text encoder in `models/text_encoders/` - **ae.safetensors** (320MB) — VAE in `models/vae/` - 8 saved workflows available (including image_z_image_turbo, klein t2i, seedvr2 upscaler, video_ltx2_3_i2v) - `diffusers` installed in ComfyUI venv; `flash-attn` FAILED to build (CUDA 12.8 vs torch 13.0 mismatch,",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:51.022Z",
+      "lastRecalledAt": "2026-04-21T06:01:51.022Z",
+      "queryHashes": [
+        "135686118c58"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "comfyui-mcp",
+        "z-image-turbo-bf16",
+        "11.7gb",
+        "models/diffusion-models/z-image",
+        "qwen-3-4b",
+        "7.7gb",
+        "models/text-encoders",
+        "ae.safetensors"
+      ]
+    },
+    "memory:memory/2026-04-17.md:17:32": {
+      "key": "memory:memory/2026-04-17.md:17:32",
+      "path": "memory/2026-04-17.md",
+      "startLine": 17,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "- Workflow node IDs: 39=CLIPLoader, 40=VAELoader, 41=EmptyLatentImage, 42=ConditioningZeroOut, 43=VAEDecode, 44=KSampler, 45=CLIPTextEncode, 46=UNETLoader, 47=ModelSamplingAuraFlow(shift=3), 148=SaveImage - Z-Image working params: res_multistep sampler, simple scheduler, 9 steps, CFG 1, shift 3, ConditioningZeroOut for negative - Other scripts exist (clothes swap, upscaler, logo paster, inpaint) but need models we don't have yet — adapt later ## ComfyUI Earlier Issue (from 2026-04-16 session) - Z-Image generation with default template (CheckpointLoaderSimple + standard KSampler) fails with OSError on tqdm progress bar write on Windows - Must use UNETLoader + CLIPLoader(type=lumina2) + VAELo",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:51.022Z",
+      "lastRecalledAt": "2026-04-21T06:01:51.022Z",
+      "queryHashes": [
+        "135686118c58"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "z-image",
+        "res-multistep",
+        "workflow",
+        "node",
+        "ids",
+        "cliploader",
+        "vaeloader",
+        "emptylatentimage"
+      ]
+    },
+    "memory:memory/2026-04-17.md:40:51": {
+      "key": "memory:memory/2026-04-17.md:40:51",
+      "path": "memory/2026-04-17.md",
+      "startLine": 40,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "- Image Overlay params: overlay_resize=\"Resize to width & heigth\", resize_method=\"nearest-exact\", opacity=0 (uses alpha mask from optional_mask input) - **Usage:** `python logo_paster.py --base <outfit_image> --logo <logo_image> --x 3000 --y 0 --width 1024 --height 1024` - **Output dir:** `Desktop\\ComfyUi_Python_new\\outputs\\logo_paster\\` ## Important Lesson Learned - **Jinay explicitly said: \"Don't change the workflow I share with you. If some nodes are not there, install them on ComfyUI but don't change the workflow.\"** — This applies to ALL future workflows he provides. Install missing custom nodes, don't substitute built-in nodes. - ComfyUI Desktop custom nodes go in: `C:\\Users\\opencla",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T06:01:51.022Z",
+      "lastRecalledAt": "2026-04-21T06:01:51.022Z",
+      "queryHashes": [
+        "135686118c58"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "overlay-resize",
+        "resize-method",
+        "nearest-exact",
+        "optional-mask",
+        "logo-paster.py",
+        "outfit-image",
+        "logo-image",
+        "comfyui-python-new"
+      ]
+    },
+    "memory:memory/2026-04-16.md:15:33": {
+      "key": "memory:memory/2026-04-16.md:15:33",
+      "path": "memory/2026-04-16.md",
+      "startLine": 15,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "- Sorted into folders: `C:\\Users\\openclaw.BILLION-DOLLAR-\\Documents\\ComfyUI\\output\\usable\\` and `delete\\` - Images also saved to workspace: `C:\\Users\\openclaw.BILLION-DOLLAR-\\Documents\\ComfyUI\\output\\Kidswear_XX_Name.png` ## Google Doc - Created Google Doc for prompts: https://docs.google.com/document/d/1suq6N1PpOzZ-MGTqt-mxc5n6uAlyOOpDJSyHgywT_Kc/edit?usp=drivesdk - Contains all 25 toddler prompts (1:1 ratio version) - Jinay wants prompts only — no workflow settings in the doc - Doc write via gog CLI failed for long content (approval timeout) — used workspace files as workaround ## Earlier Session Notes - ComfyUI runs on port 8000 (not default 8188) - RTX 5090 with 32GB VRAM - Cold start",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T10:37:02.256Z",
+      "lastRecalledAt": "2026-04-21T10:37:02.256Z",
+      "queryHashes": [
+        "80aac21b72a4"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "openclaw.billion-dollar",
+        "kidswear-xx-name.png",
+        "sorted",
+        "folders",
+        "users",
+        "openclaw.billion",
+        "dollar",
+        "documents"
+      ]
+    },
+    "memory:memory/2026-04-21.md:90:107": {
+      "key": "memory:memory/2026-04-21.md:90:107",
+      "path": "memory/2026-04-21.md",
+      "startLine": 90,
+      "endLine": 107,
+      "source": "memory",
+      "snippet": "- Limitation: can only DM accounts that @theorangematrix follows (or that follow back) - For outbound leads: need to follow them first, then message after they follow back (or use email/WhatsApp instead) - Cookies expire — need to refresh periodically from Jinay's browser ## WhatsApp DM Automation - QR scan session approach doesn't persist in headless — session expires immediately - Skipping WhatsApp for now, email + IG DM are sufficient ## Email Outreach - gog gmail send works perfectly — instant, no session issues - Example: `gog gmail send --to email@example.com --subject \"Hi\" --body \"Hello\" --no-input` ## OUTREACH RULE (reinforced 16:02 IST) - **NEVER send any email, DM, WhatsApp mess",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T10:37:02.256Z",
+      "lastRecalledAt": "2026-04-21T10:37:02.256Z",
+      "queryHashes": [
+        "80aac21b72a4"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "email/whatsapp",
+        "example.com",
+        "no-input",
+        "limitation",
+        "can",
+        "only",
+        "accounts",
+        "theorangematrix"
+      ]
+    },
+    "memory:memory/2026-04-05.md:1:36": {
+      "key": "memory:memory/2026-04-05.md:1:36",
+      "path": "memory/2026-04-05.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "## 2026-04-05 — System & Content Ops Improvements ### New Working Rules (from Jinay) 1. **Reference specificity**: Always use specific post/reel/pin URLs, not lazy profile links, when planning content or sharing references. 2. **Sheet formatting verification**: Always verify row structure before writing to Sheets; never append multi-row data into a single row. 3. **Multi-sheet sync**: When updating one operational sheet, automatically update all directly related sheets to keep them in sync. ### System Constraints Clarified - Sleep mode pauses OpenClaw completely — no local tools, no local models, no active tasks. - Wake-on-LAN or scheduled wake exists but does not provide reliable \"wak",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T11:10:50.943Z",
+      "lastRecalledAt": "2026-04-21T11:10:50.943Z",
+      "queryHashes": [
+        "7b0df89af469"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "post/reel/pin",
+        "multi-row",
+        "multi-sheet",
+        "wake-on-lan",
+        "system",
+        "content",
+        "ops",
+        "improvements"
+      ]
+    },
+    "memory:memory/2026-04-04.md:1:21": {
+      "key": "memory:memory/2026-04-04.md:1:21",
+      "path": "memory/2026-04-04.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "# 2026-04-04 - First conversation. Identity established. - Assistant name: Sarah. - User name: Jinay. - Sarah's role/vibe: strategic AI co-founder; calm, blunt, fast-moving, useful. - Emoji selected: 🧠. - Jinay is founder of Orange Matrix, a one-stop brand growth company handling high-conversion visuals, social platform management, production-house work, creative direction, and execution. - Jinay wants direct, blunt feedback and practical help focused on getting things done faster. - Jinay prefers to be called Jinay. - Current priority: build systems first so the business can eventually run with minimal founder dependence. - Current operating reality: just Jinay and Sarah for now; hiring w",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "queryHashes": [
+        "53cf120b493f"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "role/vibe",
+        "co-founder",
+        "fast-moving",
+        "one-stop",
+        "high-conversion",
+        "production-house",
+        "first",
+        "conversation"
+      ]
+    },
+    "memory:memory/2026-04-04.md:17:31": {
+      "key": "memory:memory/2026-04-04.md:17:31",
+      "path": "memory/2026-04-04.md",
+      "startLine": 17,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "- Sarah should disagree bluntly and offer better optimized options, but once Jinay clearly chooses a direction, stop pushing and execute it cleanly. - Default response style for choices: give one best option and why, not a list of multiple alternatives unless asked. - Always draft outbound messages first and get Jinay's approval before sending on his behalf. - Always ask before deleting files. - Always ask before making network requests. - If a task fails three times, stop instead of retrying indefinitely. - Default runtime limit for tasks is 10 minutes unless Jinay says otherwise. - Sarah has permission to restart OpenClaw whenever necessary. - For network requests: ask first by default, bu",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "queryHashes": [
+        "53cf120b493f"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "network",
+        "sarah",
+        "disagree",
+        "bluntly",
+        "offer",
+        "better",
+        "optimized",
+        "options"
+      ]
+    },
+    "memory:memory/2026-04-13.md:1:23": {
+      "key": "memory:memory/2026-04-13.md:1:23",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "# 2026-04-13 ## Canva Integration Research - Jinay wants to create designs/templates programmatically that he can then edit in Canva - Canva Connect API is **insufficient** — can only autofill brand templates, not create or edit designs from scratch - **Canva Apps SDK** is the real solution — allows adding text, shapes, images, changing colors/positions/fonts, full programmatic design creation AND editing - But it's a Canva App (plugin), not a standalone API — runs inside Canva's editor - Requires building a mini app - **Third-party alternatives:** Templated.io ($49/mo), Bannerbear ($49/mo), ContentDrips ($29/mo) — design templates in their editor, generate via API - **Canva Enterprise*",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "queryHashes": [
+        "53cf120b493f"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "designs/templates",
+        "colors/positions/fonts",
+        "third-party",
+        "templated.io",
+        "49/mo",
+        "29/mo",
+        "canva",
+        "integration"
+      ]
+    },
+    "memory:memory/2026-04-21.md:1:28": {
+      "key": "memory:memory/2026-04-21.md:1:28",
+      "path": "memory/2026-04-21.md",
+      "startLine": 1,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "# 2026-04-21 ## Morning Status - Gateway restarted, all services normal - Discord voice auto-join failed (normal — nobody in channel) - MEMORY.md created (was missing) - OpenClaw 2026.4.15 running ## Today's Tasks (from todo.json) - T032: Share Proofit monthly plan with Priyal - T037: Schedule Notch India content - T038: Buy Metricool + create Notch India accounts - T039: Finish Totsburg catalogue - T040: Contact prospect hires + book meetings ## ComfyUI - Totsburg Kidswear Images (Round 2) - Generated 1 initial image (hands on hips) + 8 different poses + 5 more in favorite style - Jinay kept 8 images, deleted the rest - **Kept images:** hands on hips, looking down at toy truck (favorite)",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "queryHashes": [
+        "53cf120b493f"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "gateway",
+        "auto-join",
+        "memory.md",
+        "2026.4.15",
+        "todo.json",
+        "morning",
+        "status",
+        "restarted"
       ]
     }
   }

@@ -1,0 +1,58 @@
+{
+  "3": {
+    "class_type": "InpaintCropImproved",
+    "inputs": {
+      "downscale_algorithm": "lanczos",
+      "upscale_algorithm": "lanczos",
+      "preresize": false,
+      "preresize_mode": "ensure minimum resolution",
+      "preresize_min_width": 1024,
+      "preresize_min_height": 1024,
+      "preresize_max_width": 16384,
+      "preresize_max_height": 16384,
+      "mask_fill_holes": true,
+      "mask_expand_pixels": 512,
+      "mask_invert": false,
+      "mask_blend_pixels": 64,
+      "mask_hipass_filter": 0.1,
+      "extend_for_outpainting": false,
+      "extend_up_factor": 1,
+      "extend_down_factor": 1,
+      "extend_left_factor": 1,
+      "extend_right_factor": 1,
+      "context_from_mask_extend_factor": 1,
+      "output_resize_to_target_size": true,
+      "output_target_width": 1080,
+      "output_target_height": 1920,
+      "output_padding": "0",
+      "device_mode": "gpu (much faster)",
+      "image": ["4", 0],
+      "mask": ["8", 1]
+    }
+  },
+  "4": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "placeholder.png"
+    }
+  },
+  "7": {
+    "class_type": "PreviewImage",
+    "inputs": {
+      "images": ["3", 1]
+    }
+  },
+  "8": {
+    "class_type": "SAM3Segmentation",
+    "inputs": {
+      "prompt": "shirt shorts clothing",
+      "threshold": 0.5,
+      "min_width_pixels": 0,
+      "min_height_pixels": 0,
+      "use_video_model": false,
+      "unload_after_run": false,
+      "object_ids": "",
+      "image": ["4", 0]
+    }
+  }
+}

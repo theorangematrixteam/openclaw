@@ -86,6 +86,20 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ## Client Retention & Management System
 
+## Outbound Database
+- **Sheet ID:** 1FUPdVgiUXNbq4IbhlVbYNXINrx9Cg300C2QhqsiSFcQ
+- **Tabs:** Outbound (leads), Outreach Log (tracking)
+- **Outreach Log:** Track every message sent, replies, follow-up dates, next actions
+- **Follow-up cadence:** Day 1 initial > Day 4 follow-up 1 > Day 9 follow-up 2 > Day 14 breakup
+- **Status values:** New / Contacted / Replied / Follow-up 1 / Follow-up 2 / Breakup / Not Interested / In Conversation / Closed Won / Closed Lost
+- **Email:** gog gmail send -- instant, no session issues
+- **Instagram DM:** scripts/ig-dm.js <username> "<message>" — cookie-based, needs follow-first
+- **WhatsApp:** skipped (session doesn't persist)
+- **IG cookies:** scripts/ig-cookies.json (refresh periodically from Jinay's browser)
+- **Always draft and get Jinay's approval before sending any outbound message**
+
+## Client Retention & Management System (old)
+
 - **Sheet ID:** 1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI
 - **URL:** https://docs.google.com/spreadsheets/d/1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI/edit
 - **Tabs:** Client Database, Payment Tracker, Health Monitor, Delivery Log, Follow-up Queue, Lifecycle Tracker, Communication Log

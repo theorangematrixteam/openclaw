@@ -1,0 +1,233 @@
+{
+  "cookies": [
+    {
+      "name": "wa_ul",
+      "value": "130a717c-47d0-4bcf-b978-5ca98c0f5e3c",
+      "domain": ".web.whatsapp.com",
+      "path": "/",
+      "expires": 1784542569.114449,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wa_web_lang_pref",
+      "value": "en_GB",
+      "domain": ".web.whatsapp.com",
+      "path": "/",
+      "expires": 1779185803,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wa_web_access_token",
+      "value": "WAAVdqPFXyIh8axTQS1fNtsDMOQV9ZCmFIEy8UeOYWOlQwskIpNXOaX8AIowJAl35kya1cf6zQwyVIypGeYZA9zG40yKpZABhONxcpSR1AzrZBVZCFblt5ccFZB4gHZBnZBK8DOUs36AZDZD",
+      "domain": ".web.whatsapp.com",
+      "path": "/",
+      "expires": 1811326600.050452,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://web.whatsapp.com",
+      "localStorage": [
+        {
+          "name": "XCfkjYZMQeacYnn1rlBYpw==",
+          "value": "true"
+        },
+        {
+          "name": "VpvRV7FpXDtO9DHjOA9XSw==",
+          "value": "true"
+        },
+        {
+          "name": "WANoiseInfo",
+          "value": "{\"privKey\":\"GXJxkeZ6gRiL/Q41/h3uP2gY551713zEH8vBAmO+Ihsob3xk4BSR69qBhrxhqWox\",\"pubKey\":\"1LFSrrORl6njniVP7byNxo5ZMmIN++3c239l21Krh4aSQEoPUZbAdRbK2RyFu0rz\",\"recoveryToken\":\"mmjrOxjTUBJvLEim988g4LbblHWzh3yOVVzZpzaapnU=\",\"certificateChainBuffer\":\"h5jdGahLQYUyJ9f/nnWboCyaoeFSsMjJw/QyME44aLAV7B581mn+tXk6zOeSIvBIjUzAew2gon4L855O8UBPD2d7f7Ohuegzp9QzJ2XJ6I5J5hc0HHetdaIXb/53jcql9TcKYNCxYiMPiMtu47GRC9HJ6PCqmiOmiJKhB0zUwDQ6qfWJ65OSzXp/49hCSCOdzwu6nfw5jNi/H0muno0wdi7cE74qcQj/rjFqji/h8q3gtlhHJ4SBPSnELONh+/Z+xl7YVQzMQujQSMaoVCOD4PA3v4s/S4Obp7Jqgwe90hA=\"}"
+        },
+        {
+          "name": "fLdcj+TGTIF7RCjIIOAJ6g==",
+          "value": "false"
+        },
+        {
+          "name": "WAMms4Conn",
+          "value": "{\"queryStartTime\":\"2026-04-21T10:16:41.856Z\",\"auth\":\"Ac2cf1m_YxJBKmwfo9FepMPkJpJYZQKjY03xc6jnsefLMLxpojV4SGUf\",\"hosts\":[{\"hostname\":\"media-bom5-2.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.43.32\",\"ip6\":\"2a03:2880:f312:120:face:b00c:0:167\"}],\"fallback\":{\"hostname\":\"media-blr1-2.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.53.32\",\"ip6\":\"2a03:2880:f317:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"ppic\",\"md-app-state\",\"thumbnail-document\",\"biz-cover-photo\",\"ptt\",\"audio\",\"document\",\"thumbnail-link\",\"md-msg-hist\",\"group-history\"]},{\"upload\":[\"image\",\"sticker\",\"ptt\",\"audio\",\"document\",\"video\",\"gif\",\"ppic\",\"md-app-state\",\"md-msg-hist\",\"template\",\"thumbnail-image\",\"thumbnail-video\",\"thumbnail-document\",\"thumbnail-link\",\"payment-bg-image\",\"biz-cover-photo\",\"preview\",\"newsletter-music-artwork\",\"newsletter-audio\",\"newsletter-document\",\"newsletter-image\",\"newsletter-gif\",\"newsletter-ptt\",\"newsletter-sticker\",\"newsletter-thumbnail-link\",\"newsletter-video\",\"sticker-pack\",\"thumbnail-sticker-pack\",\"music-artwork\",\"group-history\"]},{\"downloadBuckets\":[\"0\"]}]},{\"hostname\":\"media.fbom3-2.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"49.44.173.162\",\"ip6\":\"2405:200:1602:1817:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom2-3.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.125.32\",\"ip6\":\"2a03:2880:f33e:123:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"101\"]}]},{\"hostname\":\"media.fbom3-2.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"49.44.173.162\",\"ip6\":\"2405:200:1602:1817:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom5-2.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.43.32\",\"ip6\":\"2a03:2880:f312:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"102\",\"104\"]}]},{\"hostname\":\"media.fbom3-3.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:b78:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom2-1.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"163.70.143.60\",\"ip6\":\"2a03:2880:f288:cc:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"107\"]}]},{\"hostname\":\"media.fbom3-3.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:b78:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom5-1.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.243.32\",\"ip6\":\"2a03:2880:f379:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"109\"]}]},{\"hostname\":\"media.fbom3-4.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bdd:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom2-4.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.177.32\",\"ip6\":\"2a03:2880:f358:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"106\"]}]},{\"hostname\":\"media.fbom3-4.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bdd:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom5-1.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.243.32\",\"ip6\":\"2a03:2880:f379:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"110\",\"111\"]}]},{\"hostname\":\"media.fbom3-4.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bdd:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom5-2.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.43.32\",\"ip6\":\"2a03:2880:f312:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"100\"]}]},{\"hostname\":\"media.fbom3-5.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bde:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom2-3.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.125.32\",\"ip6\":\"2a03:2880:f33e:123:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"103\"]}]},{\"hostname\":\"media.fbom3-5.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bde:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom5-1.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.243.32\",\"ip6\":\"2a03:2880:f379:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"105\"]}]},{\"hostname\":\"media.fbom3-5.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bde:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media-bom5-2.cdn.whatsapp.net\",\"class\":null,\"ips\":[{\"ip4\":\"57.144.43.32\",\"ip6\":\"2a03:2880:f312:120:face:b00c:0:167\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"108\"]}]},{\"hostname\":\"media.fbom3-5.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:bde:face:b00c:3333:7020\"}],\"fallback\":{\"hostname\":\"media.fbom3-3.fna.whatsapp.net\",\"class\":null,\"ips\":[{\"ip6\":\"2405:200:1630:b78:face:b00c:3333:7020\"}]},\"type\":\"primary\",\"rules\":[{\"download\":[\"video\",\"image\",\"gif\",\"sticker\",\"newsletter-image\",\"newsletter-video\",\"newsletter-thumbnail-link\",\"newsletter-sticker\",\"newsletter-document\",\"newsletter-gif\",\"newsletter-ptt\",\"newsletter-audio\",\"thumbnail-image\",\"thumbnail-video\"]},{\"downloadBuckets\":[\"0\"]}]},{\"hostname\":\"mmg.whatsapp.net\",\"class\":null,\"ips\":[{}],\"type\":\"fallback\",\"rules\":[{\"download\":[\"image\",\"sticker\",\"ptt\",\"audio\",\"document\",\"video\",\"gif\",\"ppic\",\"md-app-state\",\"md-msg-hist\",\"template\",\"thumbnail-image\",\"thumbnail-video\",\"thumbnail-document\",\"thumbnail-link\",\"payment-bg-image\",\"biz-cover-photo\",\"preview\",\"newsletter-music-artwork\",\"newsletter-audio\",\"newsletter-document\",\"newsletter-image\",\"newsletter-gif\",\"newsletter-ptt\",\"newsletter-sticker\",\"newsletter-thumbnail-link\",\"newsletter-video\",\"sticker-pack\",\"thumbnail-sticker-pack\",\"music-artwork\",\"group-history\"]},{\"upload\":[\"image\",\"sticker\",\"ptt\",\"audio\",\"document\",\"video\",\"gif\",\"ppic\",\"md-app-state\",\"md-msg-hist\",\"template\",\"thumbnail-image\",\"thumbnail-video\",\"thumbnail-document\",\"thumbnail-link\",\"payment-bg-image\",\"biz-cover-photo\",\"preview\",\"newsletter-music-artwork\",\"newsletter-audio\",\"newsletter-document\",\"newsletter-image\",\"newsletter-gif\",\"newsletter-ptt\",\"newsletter-sticker\",\"newsletter-thumbnail-link\",\"newsletter-video\",\"sticker-pack\",\"thumbnail-sticker-pack\",\"music-artwork\",\"group-history\"]}]}],\"ttl\":301000,\"maxBuckets\":12,\"authTTL\":21601000}"
+        },
+        {
+          "name": "WAWebEncKeySalt",
+          "value": "\"W2RyM+GSQhjkedLZtTdTO/ZPlfACx5UjPWB3OhCUHnTmZucDhx4rbB9wWMMh0YVS1MjcmsS/oSj3h7gGwd9vgit7K2d6JwktThzmBkJoAPUqCdLBeXkj3DXaZn+rr+m7SdgqNu1lojXIZ7hympB++YO2uy0mQ5heaLh6BDuoDIk=\""
+        },
+        {
+          "name": "Session",
+          "value": "x1k48l:1776766603755"
+        },
+        {
+          "name": "aqsx+RIlrfgA16of0IlWCQ==",
+          "value": "false"
+        },
+        {
+          "name": "AbpropsWebRefreshId",
+          "value": "4"
+        },
+        {
+          "name": "CSASBNgPoQptZHBZVtpW5w==",
+          "value": "true"
+        },
+        {
+          "name": "Tf7HNYW5QAmOkn53pehlxA==",
+          "value": "false"
+        },
+        {
+          "name": "0omIgNABbpZlB05cWUAnKQ==",
+          "value": "false"
+        },
+        {
+          "name": "+UAkmjswD01Ex46HSVuYBg==",
+          "value": "false"
+        },
+        {
+          "name": "ndBEvxTSBIplyW4x2BYeig==",
+          "value": "\"Jinay Shah\""
+        },
+        {
+          "name": "CartDbLidMigrationComplete",
+          "value": "true"
+        },
+        {
+          "name": "WASyncdPrimaryAllowsAllMutations",
+          "value": "true"
+        },
+        {
+          "name": "P/dRaC590Get/wWLBCsvDQ==",
+          "value": "false"
+        },
+        {
+          "name": "WADailyStatsStartTime",
+          "value": "1776766598995"
+        },
+        {
+          "name": "PBzu26+WV8J1kjY+NK7eWA==",
+          "value": "true"
+        },
+        {
+          "name": "abprops_needed_early",
+          "value": "{\"wa_web_favicons_update_m1\":true,\"web_ui_refresh_m1\":true,\"web_hybrid_apply_latest_db_schema_optimization_enabled\":true}"
+        },
+        {
+          "name": "WANoiseInfoIv",
+          "value": "[\"YRe49Lrp0oB2b5OkyrjzIQ==\",\"MnXd2LSDOwF6ScN7q7WxlQ==\",\"BMkDjiISXeJyZJ7ZpG4MZA==\",\"OBPcdHd0u1O2iuEn9iLxLw==\"]"
+        },
+        {
+          "name": "LabelAssociationsLidTableMigrationComplete",
+          "value": "true"
+        },
+        {
+          "name": "XhnM0u1h+IaVBvthq/po8w==",
+          "value": "true"
+        },
+        {
+          "name": "last-wid-md",
+          "value": "\"917977147253:56@c.us\""
+        },
+        {
+          "name": "9fZYSKrw+QTc6hakKa6BEA==",
+          "value": "false"
+        },
+        {
+          "name": "mutex-ping-timeout",
+          "value": "1"
+        },
+        {
+          "name": "BusinessProfileLidTableMigrationComplete",
+          "value": "true"
+        },
+        {
+          "name": "MutexBlockStrategy",
+          "value": "0"
+        },
+        {
+          "name": "Nhe5ncGI48KdT5MiZnk4EA==",
+          "value": "false"
+        },
+        {
+          "name": "WALangPhonePref",
+          "value": "\"en_IN\""
+        },
+        {
+          "name": "FavoritesLidTableMigrationComplete",
+          "value": "true"
+        },
+        {
+          "name": "Cg5fnM6GGIKKFRQbdq/jxA==",
+          "value": "false"
+        },
+        {
+          "name": "banzai:last_storage_flush",
+          "value": "1776766572398.685"
+        },
+        {
+          "name": "WAUnknownID",
+          "value": "\"unknown-1171167765\""
+        },
+        {
+          "name": "WACachedProfilePicEURL",
+          "value": "\"https://pps.whatsapp.net/v/t61.24694-24/592047720_1461449015337177_6783642693026444334_n.jpg?ccb=11-4&oh=01_Q5Aa4QFVs3U1b2thWgMjjtSydWtvxkiRwENFP0m7FELB3dg1YQ&oe=69F46CC8&_nc_sid=5e03e0&_nc_cat=106\""
+        },
+        {
+          "name": "RSTData",
+          "value": "{}"
+        },
+        {
+          "name": "WALid",
+          "value": "\"255653767593989:56@lid\""
+        },
+        {
+          "name": "abprops",
+          "value": "{\"abKey\":\"bsS,LhZ,2gD,11a,CQ,jd,UA,Ak,7o,2s,6S,21,Cl,1O,2k,47,8h,IK,5Z,H,4A,5,3K,2K,5R,1K,6G,4k,AT,H,1w,2,76,2b,7B,2I,70,1F\",\"hash\":\"XoLre\",\"refresh\":\"90290\",\"lastSyncTime\":1776766602371}"
+        },
+        {
+          "name": "BlocklistMigrated",
+          "value": "true"
+        },
+        {
+          "name": "07yDvQMl28wA6TLP2wBUow==",
+          "value": "false"
+        },
+        {
+          "name": "WAWebWAMBeaconingSettings",
+          "value": "\"[{\\\"key\\\":\\\"regular\\\",\\\"ts\\\":1776766577,\\\"value\\\":null},{\\\"key\\\":\\\"realtime\\\",\\\"ts\\\":1776766599,\\\"value\\\":null}]\""
+        },
+        {
+          "name": "bhSKDxtdHzrNlrLG0S2e/Q==",
+          "value": "false"
+        },
+        {
+          "name": "qyeyf315SCZjEaq0QuRJyg==",
+          "value": "false"
+        },
+        {
+          "name": "WebEncKeySalt",
+          "value": "\"W2RyM+GSQhjkedLZtTdTO/ZPlfACx5UjPWB3OhCUHnTmZucDhx4rbB9wWMMh0YVS1MjcmsS/oSj3h7gGwd9vgit7K2d6JwktThzmBkJoAPUqCdLBeXkj3DXaZn+rr+m7SdgqNu1lojXIZ7hympB++YO2uy0mQ5heaLh6BDuoDIk=\""
+        },
+        {
+          "name": "abprops-refresh-id",
+          "value": "90"
+        },
+        {
+          "name": "0M+f3kWWK7LgmwUW6mJhjw==",
+          "value": "false"
+        },
+        {
+          "name": "WABotListLastRequestedTimestamp",
+          "value": "1776766599"
+        },
+        {
+          "name": "whatsapp-mutex",
+          "value": "\"x111628936:init_1776766571049\""
+        }
+      ]
+    }
+  ]
+}

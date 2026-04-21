@@ -1,29 +1,38 @@
-# 2026-04-18 — Session Summary
+# 2026-04-21 — Session Summary
 
-## Accomplishments
-- Batch converted 72 Totsburg PNGs → WebP (~1GB → ~60MB) and uploaded to Drive ✅
-- Generated 72 product names and wrote to Totsburg's Google Sheet ✅
-- Connected Notch India Instagram to Metricool ✅
-- Totsburg catalogue created — waiting for approval ✅
-- Called Naukri prospects ✅
-- Orikai photos done — waiting for Yashvi ✅
-- Metricool refund received ✅
+## Key Events This Week
+- Notch India content was supposed to start Apr 21 — status unclear
+- Proofit Facebook disconnected from Buffer + Metricool — still needs fix
+- Dhyan Parekh left 4 image feedback comments (16.png, 19.png, 21.png, 46.png) — still pending
+- Nayan Bhagat actively emailing about Creative Designer role (10+ messages, needs reply)
+- Naman Baradia requested access to "Sample Collection - 1" Google Sheet (Totsburg)
+- HuggingFace account created with company email, sam3 model access granted
+- Udyam MSME registration in progress (OTP received earlier)
 
-## Decisions
-- Product names style: short 1-2 word, easy for Indian uncles, kid-themed (Tiny Star, Baby Bloom, etc.)
-- Infant Jacket Suits get "active/fun" names (Sky Rider, Cool Dude)
-- Baba Suits get "soft/sweet" names (Soft Touch, Cuddle Star)
+## Hiring Pipeline
+- Internshala: Creative Design internship getting applications
+- WorkIndia: Content Creator candidates (Jahir, Inder, Shakunthala, Suraj, Kironjit, Vijay, etc.)
+- Indeed: Job live, new applicants (Jaitra Shahani)
+- Naukri: Account created, profile needs completion
+- Shubham Hadpidkar interview completed (Apr 15)
 
-## Files Modified
-- todo.json (T023, T024, T026, T027 marked done)
+## Config Changes (Apr 16)
+- Default model: glm-5.1:cloud, fallbacks: gemma4:26b → qwen3.5:9b
+- Vision model: gemma4:26b
+- Never restart gateway yourself — tell Jinay
+- Context management rule: summarize at ~75%, keep replies short
 
-## Pending Next Week
-- T025 — OM social media presence plan
-- T016 — Share reel with Notch India
-- Waiting: Totsburg catalogue approval (Naman)
-- Waiting: Orikai photo approval (Yashvi)
+## Tools Status
+- gog: re-authed, working
+- Buffer: Instagram + Facebook (Proofit) disconnected
+- Metricool: Facebook disconnected, posts failing
+- ComfyUI: RTX 5090, port 8000
 
-## Learnings
-- gog sheets update with --values-json has quoting issues in PowerShell — use inline comma-separated values format instead
-- FFmpeg Start-Process produces verbose output — use -NoNewWindow -Wait for cleaner runs
-- Google Drive API needs re-auth when tokens expire — run `gog auth add` again
+## Pending Actions
+- Fix Buffer + Metricool Facebook connections for Proofit
+- Address Dhyan's 4 image feedback comments
+- Reply to Nayan Bhagat about Creative Designer role
+- Grant Naman access to "Sample Collection - 1" sheet
+- Notch India: confirm planner + Metricool ready
+- Quote Totsburg for catalogue
+- Create Orange Matrix social media plan

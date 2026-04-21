@@ -76,6 +76,7 @@ Built from sorting generated images into "good taste" and "bad taste" folders on
 
 ## 🎯 Prompt Engineering Rules for Jinay's Taste
 
+### Lifestyle / Travel Photography
 1. **Always use bright natural sunlight** — mention "golden hour", "direct sunlight", "rim light"
 2. **High saturation** — "vivid", "saturated", "deep turquoise", "bronzed skin"
 3. **Nature backdrops only** — ocean, beach, sky, never studio/indoor
@@ -88,3 +89,13 @@ Built from sorting generated images into "good taste" and "bad taste" folders on
 10. **No props/staging clutter** — keep it clean and natural
 11. **Avoid:** flat lays, pastels, overcast lighting, marble/stone surfaces, diffused light
 12. **Vibe word:** "aspirational" not "serene"
+
+### Kidswear / Catalogue Photography (NEW - learned from Totsburg)
+1. **White studio background is OK** for product catalogue shots
+2. **Small props beside/on the floor** — toy truck, ball, wooden crate, block. Props must NOT cover the clothing
+3. **Natural, candid expressions** — looking down at something, focused, curious. NOT smiling at camera
+4. **Relaxed body language** — leaning, resting hand on something, sitting naturally
+5. **Avoid stiff/posed gestures** — no arms crossed, no pointing, no hands clasped, no waving
+6. **Avoid direct camera-facing** — looking at camera with animated expressions reads as fake
+7. **"Looking down at something"** is Jinay's favorite pose style — creates natural focus, candid feel
+8. **Props to the side or on the floor** — never held up or covering the outfit
