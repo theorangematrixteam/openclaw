@@ -99,3 +99,15 @@ Built from sorting generated images into "good taste" and "bad taste" folders on
 6. **Avoid direct camera-facing** — looking at camera with animated expressions reads as fake
 7. **"Looking down at something"** is Jinay's favorite pose style — creates natural focus, candid feel
 8. **Props to the side or on the floor** — never held up or covering the outfit
+
+### Fashion Editorial Photography (NEW - learned from Notch India)
+1. **White architectural minimalist sets work** for fashion editorial — stairs, pedestals, archways, plinths
+2. **Directional lighting with hard shadows** — creates drama and depth, not flat studio light
+3. **Glossy white floors with reflections** — adds luxury and spatial depth
+4. **Contrapposto / S-curve poses** — weight on one hip, not standing straight
+5. **Off-camera gaze** — editorial, not catalogue-smiling-at-camera
+6. **Architectural framing** — arches, pillars, negative space above
+7. **Varied poses:** seated on plinth, walking up stairs, leaning on wall, over-shoulder
+8. **Specific camera language:** f/2.8, 85mm, shallow DOF, medium format
+9. **Color contrast:** saturated garments against pure white set
+10. **Vibe:** "quiet luxury with edge" — not boring, not serene, confident and intentional
