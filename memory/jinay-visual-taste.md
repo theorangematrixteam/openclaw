@@ -115,3 +115,4 @@ Built from sorting generated images into "good taste" and "bad taste" folders on
 12. **IMPORTANT: Keep lighting CONSISTENT across all images in a set** — same diffused overhead + single directional fill
 13. **IMPORTANT: Keep it REALISTIC** — architectural elements must be proportional (not same height as model), props must be believable
 14. **IMPORTANT: Name files properly from the start** — format: `outfit{N}_{element}.png` so no renaming needed
+15. **IMPORTANT: Crop workflow = just crop + mask, that IS the final output** — do NOT stitch back unless Jinay explicitly asks. The cropped image is for manual editing, stitching is a separate step only when requested

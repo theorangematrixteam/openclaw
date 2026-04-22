@@ -1,0 +1,19 @@
+mutation {
+  createPost(input: {
+    channelId: "69d77de4031bfa423ce5c359"
+    text: "Blind trust is expensive.\nInformed decisions are not.\n\nKnow what you're buying. Know what you're fixing. Know what you're avoiding.\n\nThat is what a proper inspection gives you. Not a checklist. Not a formality. Actual clarity.\n\nReal confidence comes from knowing, not guessing.\n\n#Proofit #PropertyInspection #SmartBuying #HomeInspection"
+    mode: customScheduled
+    schedulingType: automatic
+    dueAt: "2026-05-05T13:30:00Z"
+    assets: {
+      images: [
+        { url: "https://drive.google.com/thumbnail?id=135kXDpMKb1K1hwJmrNtpLtk6SDjCbcz7&sz=w1000" }
+      ]
+    }
+  }) {
+    ... on PostActionSuccess {
+      post { id text status dueAt }
+    }
+    ... on InvalidInputError { message }
+  }
+}

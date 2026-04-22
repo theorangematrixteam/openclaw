@@ -1,0 +1,19 @@
+mutation {
+  createPost(input: {
+    channelId: "69d77de4031bfa423ce5c359"
+    text: "Rs 5,000 inspection.\nOr Rs 2 lakh in repairs?\n\nDetect early. Spend smart.\nHidden water damage doesn't fix itself.\n\n#Proofit #PropertyInspection #CostSavings #HomeMaintenance"
+    mode: customScheduled
+    schedulingType: automatic
+    dueAt: "2026-04-28T13:30:00Z"
+    assets: {
+      images: [
+        { url: "https://drive.google.com/thumbnail?id=1e_RH-A93PGsdaTwLcp03Afkxed62ERp_&sz=w1000" }
+      ]
+    }
+  }) {
+    ... on PostActionSuccess {
+      post { id text status dueAt }
+    }
+    ... on InvalidInputError { message }
+  }
+}
