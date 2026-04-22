@@ -111,3 +111,7 @@ Built from sorting generated images into "good taste" and "bad taste" folders on
 8. **Specific camera language:** f/2.8, 85mm, shallow DOF, medium format
 9. **Color contrast:** saturated garments against pure white set
 10. **Vibe:** "quiet luxury with edge" — not boring, not serene, confident and intentional
+11. **IMPORTANT: Each image must have a UNIQUE prop/set element** — not just staircase/table/column on repeat. Vary: archway, pedestal, plinth, stairs, column, bench, sofa, wall ledge, floor-level shot, doorway, niche, platform, etc.
+12. **IMPORTANT: Keep lighting CONSISTENT across all images in a set** — same diffused overhead + single directional fill
+13. **IMPORTANT: Keep it REALISTIC** — architectural elements must be proportional (not same height as model), props must be believable
+14. **IMPORTANT: Name files properly from the start** — format: `outfit{N}_{element}.png` so no renaming needed
