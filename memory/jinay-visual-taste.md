@@ -116,3 +116,9 @@ Built from sorting generated images into "good taste" and "bad taste" folders on
 13. **IMPORTANT: Keep it REALISTIC** — architectural elements must be proportional (not same height as model), props must be believable
 14. **IMPORTANT: Name files properly from the start** — format: `outfit{N}_{element}.png` so no renaming needed
 15. **IMPORTANT: Crop workflow = just crop + mask, that IS the final output** — do NOT stitch back unless Jinay explicitly asks. The cropped image is for manual editing, stitching is a separate step only when requested
+16. **IMPORTANT: Totsburg kidswear = Caucasian kids, NOT South Asian** — Jinay confirmed this on 04-23
+17. **IMPORTANT: The "Torso Clearance" Rule** — t-shirt chest/abdomen must be 80%+ unobstructed. FORBIDDEN: hands covering mouth/chin that overlap chest, arms crossed, hands pulling collar. ALLOWED: arms at sides, hands on hips, waving, pointing away from body, hands behind head
+18. **IMPORTANT: Use "Outward-Facing" dynamics** — all movement directed AWAY from center of garment. Point toward edge of frame, head tilt back/side, arms move outward not across torso
+19. **IMPORTANT: Interaction over Action** — focus on relationship between two kids (shared laughter, looking at each other) not solo stunt poses (flexing, hiding face, hugging tightly)
+20. **IMPORTANT: Contact shadows** — specify soft ambient occlusion shadows at feet/floor and body overlaps to ground subjects in reality, avoid floating look
+21. **IMPORTANT: Fabric texture** — avoid flat lighting. Use "soft directional light" so folds create highlights/shadows on the t-shirt, proving it is 3D not flat

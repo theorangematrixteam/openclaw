@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-22T12:14:53.109Z",
+  "updatedAt": "2026-04-23T10:24:41.893Z",
   "entries": {
     "memory:memory/2026-04-11.md:1:34": {
       "key": "memory:memory/2026-04-11.md:1:34",
@@ -728,6 +728,38 @@
         "50-100",
         "a/b",
         "status"
+      ]
+    },
+    "memory:memory/2026-04-18.md:1:11": {
+      "key": "memory:memory/2026-04-18.md:1:11",
+      "path": "memory/2026-04-18.md",
+      "startLine": 1,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "# 2026-04-18 ## Outbound Strategy — ICP Defined - Jinay defined Orange Matrix target: early-stage product brands (clothing, jewelry, D2C products) that need content + social media but don't have in-house teams - Positioning: one-stop solution — visuals, social management, creative direction, execution - Saved ICP to `memory/orange-matrix-icp.md` - Outbound channel work starting - Built outbound database finding skill: skills/outbound-database/SKILL.md - Process: IG follower check first (under 10k only) → website scrape → founder search → cross-verify → write to sheet - Key rules: no + in phone numbers, no blank fields, no hallucinated data, every entry verified - Sheet ID: 1FUPdVgiUXNbq4Ibh",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-23T05:23:20.987Z",
+      "lastRecalledAt": "2026-04-23T10:24:41.893Z",
+      "queryHashes": [
+        "40470b2c54b7",
+        "348ba4d38037"
+      ],
+      "recallDays": [
+        "2026-04-23"
+      ],
+      "conceptTags": [
+        "early-stage",
+        "in-house",
+        "one-stop",
+        "memory/orange-matrix-icp.md",
+        "cross-verify",
+        "outbound",
+        "strategy",
+        "icp"
       ]
     }
   }
