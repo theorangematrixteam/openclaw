@@ -17,6 +17,9 @@
 3. **Follow-ups** — Any approvals pending > 2 days? (via follow-up-engine skill)
 4. **Calendar** — Any events in next 24h? (via gog)
 5. **OpenClaw Updates** — Check `npm view openclaw version` vs `npm list -g openclaw`. If newer version available, alert Jinay but do NOT auto-update (requires gateway restart).
+6. **Push to Discord** — If any actionable items found during heartbeat, push them to Discord #general using:
+   `openclaw message send --channel discord --target "channel:1489858409376514200" --message "<message>"`
+   Don't push routine "nothing found" updates — only push when there's something Jinay needs to see.
 
 ## Alive Ping
 
@@ -34,6 +37,8 @@ If **Jinay's** message is the last message in any Discord channel, respond with:
 - Content deadline missed
 - Approval pending > 2 days
 - Calendar event < 2h away
+
+**Also push these alerts to Discord #general** using the command above. Don't just keep them in webchat.
 
 ## When NOT to alert:
 - Late night (23:00-08:00 IST) unless urgent

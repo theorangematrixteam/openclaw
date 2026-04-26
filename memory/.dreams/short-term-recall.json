@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-23T10:24:41.893Z",
+  "updatedAt": "2026-04-26T08:22:25.588Z",
   "entries": {
     "memory:memory/2026-04-11.md:1:34": {
       "key": "memory:memory/2026-04-11.md:1:34",
@@ -9,18 +9,21 @@
       "endLine": 34,
       "source": "memory",
       "snippet": "# 2026-04-11 ## Systems Built (FRIDAY Framework) - **Daily Briefing Skill** — upgraded 10:30 AM cron with emails, news, todos, client status, batches - **Eisenhower Todo System** — todo.json with 4 quadrants, natural language detection - **Client Tracker Skill** — reads Google Sheets, one-line status per client - **Follow-up Engine Skill** — flags stuck approvals, overdue items, unpaid invoices - **Financial Tracker Skill** — invoice/payment tracking (needs batch data) - **Proactive Actions Skill** — heartbeat rules for acting without being told - **Heartbeat config** — updated HEARTBEAT.md with check schedule ## Voice Comms (Discord Voice Plugin) - Installed discord-voice plugin v0.1.5 -",
-      "recallCount": 1,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-20T05:01:07.244Z",
-      "lastRecalledAt": "2026-04-20T05:01:07.244Z",
+      "lastRecalledAt": "2026-04-26T05:12:06.026Z",
       "queryHashes": [
-        "4cf59e491cca"
+        "4cf59e491cca",
+        "c0adf88c2614",
+        "59a499ac3ae8"
       ],
       "recallDays": [
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-26"
       ],
       "conceptTags": [
         "todo.json",
@@ -40,18 +43,20 @@
       "endLine": 84,
       "source": "memory",
       "snippet": "5. Explored Postoria UI structure (Posts, Calendar, Accounts pages) 6. Successfully scheduled test Instagram post via browser automation **Post Content:** - Caption: \"This post was automatically scheduled by AI 🤖 Testing the automation workflow - from Discord command to scheduled Instagram post, all handled by OpenClaw.\" - Image: Downloaded from Google Drive (1I-Avsv5Tig132fvwQPoCF1aI29GyVD0p) - Scheduled for: 10:18 AM today - Account: Instagram - The Orange Matrix **Important:** Don't repeatedly log in/out of websites to avoid being flagged. Use saved session state. --- ## Apify Integration **Status:** Set up but not yet tested with real Instagram URLs. **API Key sto",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 2,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-20T06:18:27.915Z",
-      "lastRecalledAt": "2026-04-20T06:18:27.915Z",
+      "lastRecalledAt": "2026-04-25T06:41:50.524Z",
       "queryHashes": [
-        "9ef722ea7dd7"
+        "9ef722ea7dd7",
+        "751e67c0230b"
       ],
       "recallDays": [
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-25"
       ],
       "conceptTags": [
         "in/out",
@@ -71,18 +76,23 @@
       "endLine": 47,
       "source": "memory",
       "snippet": "# Memory - 2026-04-07 ## Postoria Scheduler Setup **Installed:** Playwright browser automation skill for Postoria scheduling. **Credentials stored in TOOLS.md:** - Postoria login: theorangematrixteam@gmail.com / OrangematrixPostoria123 - Auth state saved at: `scripts/postoria-auth.json` **Connected Accounts (5):** - 1 Pinterest - 2 LinkedIn - 1 Instagram (theorangematrix) - 1 X (Twitter) **Workflow:** 1. User shares content (caption + image) in Discord 2. AI generates Playwright script 3. Browser logs into Postoria using saved session 4. Creates post, selects accounts, sets date/time 5. Schedules it 6. Reports back to user **Script location:** `scripts/schedule-",
-      "recallCount": 1,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 4,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-20T06:18:27.915Z",
-      "lastRecalledAt": "2026-04-20T06:18:27.915Z",
+      "lastRecalledAt": "2026-04-26T05:12:06.026Z",
       "queryHashes": [
-        "9ef722ea7dd7"
+        "9ef722ea7dd7",
+        "751e67c0230b",
+        "c0adf88c2614",
+        "59a499ac3ae8"
       ],
       "recallDays": [
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "tools.md",
@@ -171,22 +181,24 @@
       "endLine": 31,
       "source": "memory",
       "snippet": "# 2026-04-19 ## Payments Received - Orikai: ₹4,800 (product shoot) - Hach Styles: ₹3,700 (content creation) - MariGold: ₹300 (product shoot) - Updated Core sheet Clients tab + Money Manager tab ## Client Retention & Management System - BUILT - New Google Sheet: \"Client Retention & Management System\" - Sheet ID: 1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI - URL: https://docs.google.com/spreadsheets/d/1qRMC8GQ4tl10zRSfFg4imRQ0URqYKSnvdTP-mfxLIrI/edit - 7 tabs created and populated: 1. **Client Database** - 14 clients with full details, lifecycle stage, health, contact 2. **Payment Tracker** - All invoices/receivables with aging buckets 3. **Health Monitor** - Health scores, risk trigg",
-      "recallCount": 4,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 4,
+      "totalScore": 5,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-21T06:01:09.175Z",
-      "lastRecalledAt": "2026-04-22T11:39:16.423Z",
+      "lastRecalledAt": "2026-04-26T04:48:48.176Z",
       "queryHashes": [
         "3421bb0b6d2f",
         "e7548f9f0070",
         "e6d6539bcded",
-        "ed9d7805a2a3"
+        "ed9d7805a2a3",
+        "15d527ec5e8a"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-26"
       ],
       "conceptTags": [
         "invoices/receivables",
@@ -518,18 +530,20 @@
       "endLine": 21,
       "source": "memory",
       "snippet": "# 2026-04-04 - First conversation. Identity established. - Assistant name: Sarah. - User name: Jinay. - Sarah's role/vibe: strategic AI co-founder; calm, blunt, fast-moving, useful. - Emoji selected: 🧠. - Jinay is founder of Orange Matrix, a one-stop brand growth company handling high-conversion visuals, social platform management, production-house work, creative direction, and execution. - Jinay wants direct, blunt feedback and practical help focused on getting things done faster. - Jinay prefers to be called Jinay. - Current priority: build systems first so the business can eventually run with minimal founder dependence. - Current operating reality: just Jinay and Sarah for now; hiring w",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 1.7878735487198165,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-21T12:22:10.815Z",
-      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-25T06:41:50.524Z",
       "queryHashes": [
-        "53cf120b493f"
+        "53cf120b493f",
+        "751e67c0230b"
       ],
       "recallDays": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-25"
       ],
       "conceptTags": [
         "role/vibe",
@@ -549,18 +563,20 @@
       "endLine": 31,
       "source": "memory",
       "snippet": "- Sarah should disagree bluntly and offer better optimized options, but once Jinay clearly chooses a direction, stop pushing and execute it cleanly. - Default response style for choices: give one best option and why, not a list of multiple alternatives unless asked. - Always draft outbound messages first and get Jinay's approval before sending on his behalf. - Always ask before deleting files. - Always ask before making network requests. - If a task fails three times, stop instead of retrying indefinitely. - Default runtime limit for tasks is 10 minutes unless Jinay says otherwise. - Sarah has permission to restart OpenClaw whenever necessary. - For network requests: ask first by default, bu",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 1.787481179674355,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-21T12:22:10.815Z",
-      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-25T06:41:50.524Z",
       "queryHashes": [
-        "53cf120b493f"
+        "53cf120b493f",
+        "751e67c0230b"
       ],
       "recallDays": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-25"
       ],
       "conceptTags": [
         "network",
@@ -580,18 +596,23 @@
       "endLine": 23,
       "source": "memory",
       "snippet": "# 2026-04-13 ## Canva Integration Research - Jinay wants to create designs/templates programmatically that he can then edit in Canva - Canva Connect API is **insufficient** — can only autofill brand templates, not create or edit designs from scratch - **Canva Apps SDK** is the real solution — allows adding text, shapes, images, changing colors/positions/fonts, full programmatic design creation AND editing - But it's a Canva App (plugin), not a standalone API — runs inside Canva's editor - Requires building a mini app - **Third-party alternatives:** Templated.io ($49/mo), Bannerbear ($49/mo), ContentDrips ($29/mo) — design templates in their editor, generate via API - **Canva Enterprise*",
-      "recallCount": 1,
+      "recallCount": 4,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 4,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-21T12:22:10.815Z",
-      "lastRecalledAt": "2026-04-21T12:22:10.815Z",
+      "lastRecalledAt": "2026-04-26T08:22:25.588Z",
       "queryHashes": [
-        "53cf120b493f"
+        "53cf120b493f",
+        "0244e3e0d6d3",
+        "b1087e391d6c",
+        "4776e18738d8"
       ],
       "recallDays": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "designs/templates",
@@ -611,20 +632,22 @@
       "endLine": 28,
       "source": "memory",
       "snippet": "# 2026-04-21 ## Morning Status - Gateway restarted, all services normal - Discord voice auto-join failed (normal — nobody in channel) - MEMORY.md created (was missing) - OpenClaw 2026.4.15 running ## Today's Tasks (from todo.json) - T032: Share Proofit monthly plan with Priyal - T037: Schedule Notch India content - T038: Buy Metricool + create Notch India accounts - T039: Finish Totsburg catalogue - T040: Contact prospect hires + book meetings ## ComfyUI - Totsburg Kidswear Images (Round 2) - Generated 1 initial image (hands on hips) + 8 different poses + 5 more in favorite style - Jinay kept 8 images, deleted the rest - **Kept images:** hands on hips, looking down at toy truck (favorite)",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-21T12:22:10.815Z",
-      "lastRecalledAt": "2026-04-22T11:39:16.423Z",
+      "lastRecalledAt": "2026-04-24T13:05:11.413Z",
       "queryHashes": [
         "53cf120b493f",
-        "ed9d7805a2a3"
+        "ed9d7805a2a3",
+        "4572158e9747"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-24"
       ],
       "conceptTags": [
         "gateway",
@@ -737,19 +760,24 @@
       "endLine": 11,
       "source": "memory",
       "snippet": "# 2026-04-18 ## Outbound Strategy — ICP Defined - Jinay defined Orange Matrix target: early-stage product brands (clothing, jewelry, D2C products) that need content + social media but don't have in-house teams - Positioning: one-stop solution — visuals, social management, creative direction, execution - Saved ICP to `memory/orange-matrix-icp.md` - Outbound channel work starting - Built outbound database finding skill: skills/outbound-database/SKILL.md - Process: IG follower check first (under 10k only) → website scrape → founder search → cross-verify → write to sheet - Key rules: no + in phone numbers, no blank fields, no hallucinated data, every entry verified - Sheet ID: 1FUPdVgiUXNbq4Ibh",
-      "recallCount": 2,
+      "recallCount": 5,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 5,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-23T05:23:20.987Z",
-      "lastRecalledAt": "2026-04-23T10:24:41.893Z",
+      "lastRecalledAt": "2026-04-26T08:22:25.588Z",
       "queryHashes": [
         "40470b2c54b7",
-        "348ba4d38037"
+        "348ba4d38037",
+        "0244e3e0d6d3",
+        "b1087e391d6c",
+        "4776e18738d8"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25",
+        "2026-04-26"
       ],
       "conceptTags": [
         "early-stage",
@@ -760,6 +788,171 @@
         "outbound",
         "strategy",
         "icp"
+      ]
+    },
+    "memory:memory/2026-04-22.md:1:48": {
+      "key": "memory:memory/2026-04-22.md:1:48",
+      "path": "memory/2026-04-22.md",
+      "startLine": 1,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "# 2026-04-22 ## Outbound System — Session 2 ### Emails Sent (12/12 successful, zero bounces) - BITCHN → info@thebitchn.com - Sharmeeli → contact@sharmeeli.in - Whynaut → whynaut04@gmail.com - Label Kariya → label.kariya@gmail.com - Our Karma Clothing → contact@ourkarmaclothing.com - Windowsill → enquiry@windowsill.co.in - Pranikas → support@pranikas.com - Rihyaaz Fashions → rihyaaz.fashions@gmail.com - Lussora → care.lussora@gmail.com - Sunheri Flame → info@sunheriflame.com - Silvooshine → care@silvooshine.com - Gharana Karigari → garvansh@batraventures.in ### Portfolio Link - Using theorangematrix.com for now ### Outreach Log - All 12 emails logged in Outreach Log tab - All 12 leads Sta",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-24T13:05:11.413Z",
+      "lastRecalledAt": "2026-04-26T08:22:25.588Z",
+      "queryHashes": [
+        "4572158e9747",
+        "67eb94ba8e30",
+        "4776e18738d8"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "12/12",
+        "thebitchn.com",
+        "sharmeeli.in",
+        "gmail.com",
+        "label.kariya",
+        "ourkarmaclothing.com",
+        "windowsill.co.in",
+        "pranikas.com"
+      ]
+    },
+    "memory:memory/2026-04-22.md:40:76": {
+      "key": "memory:memory/2026-04-22.md:40:76",
+      "path": "memory/2026-04-22.md",
+      "startLine": 40,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "- Twitter/X DM automation — login script ready, need Jinay to login + save cookies (tomorrow) - IG DMs to all 12 emailed brands (need follow-first workaround) - Follow-up emails on April 26 - Reply template for when leads respond - More leads (target 50-100) - Cron job may need gateway restart to activate ### Tomorrow's Plan 1. Twitter login + cookie save 2. Send Twitter DMs to all 12 leads 3. April 26: follow-up emails to non-responders 4. Check if cron job is running at 11 PM ## Totsburg 2-Kid Photo Generation ### Workflow 1. Generated 2-kid editorial photos with Z-Image turbo 2. Upscaled via SeedVR2 to 4096px 3. SAM3 crop mask on clothing (tshirt and shorts) ### Iterations - V1: 2 diff",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-24T13:05:11.413Z",
+      "lastRecalledAt": "2026-04-24T13:05:11.413Z",
+      "queryHashes": [
+        "4572158e9747"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "gateway",
+        "twitter/x",
+        "follow-first",
+        "follow-up",
+        "50-100",
+        "non-responders",
+        "2-kid",
+        "z-image"
+      ]
+    },
+    "memory:memory/2026-04-21.md:58:76": {
+      "key": "memory:memory/2026-04-21.md:58:76",
+      "path": "memory/2026-04-21.md",
+      "startLine": 58,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "- **Dandelion Jewels** — Jewelry, 910 IG followers, no website/email found (Shopify store down), IG-only presence - **Silvooshine** — Jewelry, 63 IG followers, care@silvooshine.com, 91 8373925926, Dwarka Delhi - Rejected brands: Zephyra (website down), Srijanam (Shopify store offline), DUD (0 posts), HOOR Naturals (0 posts), The Sass Bar (72K followers) - Script: `scripts/push-batch2-v2.js` ## Outbound Database - Batch 3 (Candles/Perfume + Clothing) - Added 5 new brands to sheet (rows 12-16, tab: Outbound) - **Windowsill** — Product:Candles, 3,822 IG, enquiry@windowsill.co.in, 91 8263915801, Delhi (beeswax candles + home fragrance) - **Lussora** — Product:Perfume, 196 IG, care.lussora@gmail",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T06:41:22.712Z",
+      "lastRecalledAt": "2026-04-26T08:22:25.588Z",
+      "queryHashes": [
+        "0244e3e0d6d3",
+        "b1087e391d6c",
+        "4776e18738d8"
+      ],
+      "recallDays": [
+        "2026-04-25",
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "website/email",
+        "ig-only",
+        "silvooshine.com",
+        "scripts/push-batch2-v2.js",
+        "candles/perfume",
+        "12-16",
+        "windowsill.co.in",
+        "care.lussora"
+      ]
+    },
+    "memory:memory/2026-04-21.md:71:95": {
+      "key": "memory:memory/2026-04-21.md:71:95",
+      "path": "memory/2026-04-21.md",
+      "startLine": 71,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "- Process improvement: now doing URL liveness check + IG check in one pass before deep-diving - Total outbound database: 15 brands (5+5+5) ## Data Cleanup - Fixed bare TBD fields across all 15 rows — every TBD now has explanation + next action - Standardized Category format to Category:Subcategory (e.g. Clothing:Streetwear, Jewelry:Silver) - Fixed Status column (was leaking to Last Contacted column) — all set to \"New\" - Fixed Pranikas/Gharana — emails removed from Last Name field, moved to Notes - Dandelion Jewels priority lowered to Low, flagged as low-quality lead - Silvooshine: flagged \"3L+ customers\" claim as likely inflated - Updated outbound-database SKILL.md with all quality rules le",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T06:41:22.712Z",
+      "lastRecalledAt": "2026-04-26T08:22:25.588Z",
+      "queryHashes": [
+        "0244e3e0d6d3",
+        "b1087e391d6c",
+        "4776e18738d8"
+      ],
+      "recallDays": [
+        "2026-04-25",
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "deep-diving",
+        "e.g",
+        "pranikas/gharana",
+        "low-quality",
+        "outbound-database",
+        "skill.md",
+        "process",
+        "improvement"
+      ]
+    },
+    "memory:memory/2026-04-25.md:1:26": {
+      "key": "memory:memory/2026-04-25.md:1:26",
+      "path": "memory/2026-04-25.md",
+      "startLine": 1,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "# 2026-04-25 ## Morning - WorkIndia: 2 candidates joined Content Creator interview (Abhay notification) - Metricool: scheduled Facebook post failed to publish — needs investigation - OpenAI announced GPT-5.5 (info only) - No calendar events today/weekend - Previous day: Discord issue flagged by Jinay, ComfyUI blocked, OpenClaw update available ## Outbound Database - Batch 4 (10 brands) - Added 10 new leads to Outbound sheet (rows 27-36) - **Hizbah** — Clothing:Modest Streetwear, 3,657 IG, Mumbai, phone: 9867115416 - **House of Aagor** — Clothing:Heritage Streetwear, 7,094 IG, website only - **Vastralay101** — Clothing:Mythology Streetwear, 650 IG, website only - **Ornatique** — Jewelry:Aff",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-26T07:40:44.263Z",
+      "lastRecalledAt": "2026-04-26T08:22:25.588Z",
+      "queryHashes": [
+        "b1087e391d6c",
+        "4776e18738d8"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "gpt-5.5",
+        "today/weekend",
+        "27-36",
+        "morning",
+        "workindia",
+        "candidates"
       ]
     }
   }

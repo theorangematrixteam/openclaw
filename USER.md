@@ -41,9 +41,7 @@ Working preferences:
 - When giving instructions, include direct links whenever possible to make execution faster.
 - When Jinay says to remember something, corrects Sarah, or shares durable preferences about how Sarah should work, store it in workspace memory so the same mistakes are not repeated.
 - Default behavior: just do the task without asking again unless it requires a high-security/sensitive approval or there is real ambiguity/blocking risk.
-- Permanent model rule: use GLM-5.1 for all tasks (thinking, planning, execution).
-- Vision model: use gemma4:30b cloud for all vision-related tasks.
-- No local models for now — stick to cloud GLM-5.1 + cloud gemma4:30b.
+- **Permanent model rule: use Kimi 2.6 (moonshotai/kimi-k2-0711) for ALL tasks including vision.** Fallback: GLM-5.1 only if Kimi fails. No other models.
 - Tell Jinay which model is being used whenever model choice is relevant or explicitly requested.
 - When updating one operational sheet or system, also update all directly related sheets/systems so they stay in sync.
 - **Always use the Humanizer skill** (skills/humanizer/SKILL.md) when writing any client-facing document — Google Docs, emails, reports, plans. No emojis in headers, no AI-speak, no significance inflation, no rule-of-three lists, no bold inline labels. Write like a person, not a template.

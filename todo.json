@@ -79,10 +79,10 @@
       "quadrant_label": "Do Now",
       "created": "2026-04-19T15:26:00+05:30",
       "due": "2026-04-25",
-      "done": false,
-      "done_at": null,
+      "done": true,
+      "done_at": "2026-04-25T13:10:00+05:30",
       "tags": ["client", "totsburg", "revenue"],
-      "notes": "Follow up and close"
+      "notes": "Completed"
     },
     {
       "id": "T016",
