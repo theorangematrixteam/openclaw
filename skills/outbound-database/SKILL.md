@@ -16,7 +16,7 @@ Early-stage product brands (clothing, jewelry, D2C products) with **under 10k In
 - **Tab 1:** `Outbound` — lead database
 - **Tab 2:** `Outreach Log` — message tracking and follow-up scheduling
 
-### Outbound Tab Columns (A-S):
+### Outbound Tab Columns (A-U):
   1. Category — `Clothing:Streetwear` / `Clothing:Ethnic` / `Jewelry:Silver` / `Product:Candles` / `Product:Perfume` etc.
   2. Company
   3. Industry (subcategory description)
@@ -27,15 +27,17 @@ Early-stage product brands (clothing, jewelry, D2C products) with **under 10k In
   8. Phone (NO + sign — Sheets interprets it as formula; use `91 XXXXXXXXXX`)
   9. LinkedIn
   10. Instagram
-  11. Website
-  12. Funding
-  13. Why They Need Us
-  14. Priority (High / Medium / Low)
-  15. Status — `New` / `Contacted` / `Replied` / `Follow-up 1` / `Follow-up 2` / `Breakup` / `Not Interested` / `In Conversation` / `Closed Won` / `Closed Lost`
-  16. Last Contacted — date of last outreach (YYYY-MM-DD)
-  17. Next Step — what to do next
-  18. Notes
-  19. Source
+  11. Twitter/X — Twitter/X handle (without @)
+  12. LinkedIn URL — Company LinkedIn page URL
+  13. Website
+  14. Funding
+  15. Why They Need Us
+  16. Priority (High / Medium / Low)
+  17. Status — `New` / `Contacted` / `Replied` / `Follow-up 1` / `Follow-up 2` / `Breakup` / `Not Interested` / `In Conversation` / `Closed Won` / `Closed Lost`
+  18. Last Contacted — date of last outreach (YYYY-MM-DD)
+  19. Next Step — what to do next
+  20. Notes
+  21. Source
 
 ### Outreach Log Tab Columns (A-L):
   1. Date — when action was taken (YYYY-MM-DD)

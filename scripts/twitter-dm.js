@@ -18,8 +18,13 @@ const COOKIES_PATH = 'C:\\Users\\openclaw.BILLION-DOLLAR-\\.openclaw\\workspace\
   let cookies;
   try {
     cookies = JSON.parse(fs.readFileSync(COOKIES_PATH, 'utf8'));
+    // Fix sameSite values
+    for (const cookie of cookies) {
+      if (cookie.sameSite === 'unspecified') cookie.sameSite = 'Lax';
+      if (cookie.sameSite === 'no_restriction') cookie.sameSite = 'None';
+    }
   } catch(e) {
-    console.log('ERROR: No Twitter cookies found. Run twitter-login.js first to save cookies.');
+    console.log('ERROR: No Twitter cookies found. Export cookies from browser first.');
     process.exit(1);
   }
 
@@ -32,7 +37,6 @@ const COOKIES_PATH = 'C:\\Users\\openclaw.BILLION-DOLLAR-\\.openclaw\\workspace\
   const page = await context.newPage();
 
   try {
-    // Go to the user's profile
     console.log(`Navigating to @${username}'s profile...`);
     await page.goto(`https://x.com/${username}`, { timeout: 20000, waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(3000);
@@ -44,26 +48,26 @@ const COOKIES_PATH = 'C:\\Users\\openclaw.BILLION-DOLLAR-\\.openclaw\\workspace\
       process.exit(1);
     }
 
-    // Look for the message/envelope button on their profile
-    const msgBtn = await page.$('[data-testid="dmButton"]') || 
+    // Look for the message button
+    const msgBtn = await page.$('[data-testid="sendDMFromProfile"]') || 
                    await page.$('button[aria-label*="Message"]') ||
-                   await page.$('button[aria-label*="message"]');
+                   await page.$('[role="button"]:has-text("Message")');
     
     if (!msgBtn) {
-      console.log('FAIL: No DM button found. Account may have DMs closed.');
+      console.log('FAIL: No DM button found. User may have DMs closed.');
       process.exit(1);
     }
 
     await msgBtn.click();
     await page.waitForTimeout(3000);
 
-    // Find the message input in the DM popup
+    // Find the message input in the DM composer
     const msgInput = await page.$('[data-testid="dmComposerTextInput"]') ||
                      await page.$('[contenteditable="true"]') ||
                      await page.$('[role="textbox"]');
     
     if (!msgInput) {
-      console.log('FAIL: No message input found in DM popup');
+      console.log('FAIL: No message input found in DM composer');
       process.exit(1);
     }
 
@@ -75,18 +79,16 @@ const COOKIES_PATH = 'C:\\Users\\openclaw.BILLION-DOLLAR-\\.openclaw\\workspace\
     await page.waitForTimeout(500);
 
     // Send it
-    const sendBtn = await page.$('[data-testid="dmSentButton"]') ||
-                    await page.$('[data-testid="dmComposerSendButton"]');
+    const sendBtn = await page.$('[data-testid="dmComposerSendButton"]');
     
     if (sendBtn) {
       await sendBtn.click();
     } else {
-      // Fallback: press Enter
       await page.keyboard.press('Enter');
     }
     
     await page.waitForTimeout(2000);
-    console.log(`SENT to @${username}: "${message}"`);
+    console.log(`SENT to @${username}: "${message.substring(0, 50)}..."`);
 
   } catch(e) {
     console.log('ERROR:', e.message.substring(0, 200));

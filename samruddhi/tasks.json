@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": "S001",
+      "text": "Totsburg image editing — catalogue batch (TRAINING)",
+      "status": "in-progress",
+      "priority": "P0",
+      "client": "Totsburg",
+      "assigned": "2026-04-27T11:08:00+05:30",
+      "due": "2026-04-27",
+      "notes": "LEARNING TASK. Jinay to provide: (1) sample edited image as reference, (2) step-by-step editing checklist, (3) raw images folder location. Samruddhi to practice on 1-2 images first, get feedback, then do the batch.",
+      "tags": ["client:totsburg", "image-editing", "catalogue", "training"]
+    },
+    {
+      "id": "S002",
+      "text": "Learn ComfyUI basic workflow — generate 3 test images",
+      "status": "pending",
+      "priority": "P0",
+      "client": "Internal",
+      "assigned": "2026-04-27T12:10:00+05:30",
+      "due": "2026-04-28",
+      "notes": "TRAINING. Learn the Totsburg image generation pipeline. Steps: (1) Watch Jinay demo once, (2) Try generating 3 images with guidance, (3) Compare outputs to reference. Goal: understand prompts, parameters, and output quality.",
+      "tags": ["training", "comfyui", "ai-generation", "totsburg"]
+    },
+    {
+      "id": "S003",
+      "text": "Proofit — Edit 1 social media post with provided content",
+      "status": "pending",
+      "priority": "P1",
+      "client": "Proofit",
+      "assigned": "2026-04-27T12:10:00+05:30",
+      "due": "2026-04-29",
+      "notes": "Jinay to provide: (1) Proofit brand colors/fonts, (2) content/copy for the post, (3) reference style from competitor or previous post. Samruddhi to create 2 versions, Jinay picks one. LEARNING: understand brand consistency.",
+      "tags": ["client:proofit", "social-media", "design", "training"]
+    },
+    {
+      "id": "S004",
+      "text": "Proofit — Edit 1 reel (simple cuts + text overlay)",
+      "status": "pending",
+      "priority": "P1",
+      "client": "Proofit",
+      "assigned": "2026-04-27T12:10:00+05:30",
+      "due": "2026-04-30",
+      "notes": "TRAINING. Jinay to provide: (1) raw video clips, (2) script/text overlay content, (3) reference reel style. Use CapCut or similar. Simple cuts + text + brand colors. Goal: learn basic video editing workflow.",
+      "tags": ["client:proofit", "video-editing", "reel", "training"]
+    },
+    {
+      "id": "S005",
+      "text": "Create SOP: Document Totsburg editing workflow step-by-step",
+      "status": "pending",
+      "priority": "P2",
+      "client": "Internal",
+      "assigned": "2026-04-27T12:10:00+05:30",
+      "due": "2026-05-03",
+      "notes": "Once S001 is mastered, write down the exact steps: file locations, tools used, settings, checkpoints, quality checks. This becomes the repeatable SOP so Samruddhi (or future hires) can do it without Jinay.",
+      "tags": ["internal", "sop", "documentation", "totsburg"]
+    },
+    {
+      "id": "S006",
+      "text": "Notch India — Create 1 Instagram post with full guidance",
+      "status": "pending",
+      "priority": "P2",
+      "client": "Notch India",
+      "assigned": "2026-04-27T12:10:00+05:30",
+      "due": "2026-05-02",
+      "notes": "Jinay to provide: (1) brand guidelines (white architectural, quiet luxury), (2) product images, (3) caption/copy, (4) reference post. Samruddhi creates 2 options. Review and iterate. LEARNING: understand premium brand aesthetics.",
+      "tags": ["client:notch-india", "social-media", "posts", "training"]
+    }
+  ],
+  "counter": 7,
+  "employee": {
+    "name": "Samruddhi",
+    "role": "AI Visual Creative & Social Media Executive",
+    "salary": "₹10,000/month",
+    "type": "Full-time (9-6)",
+    "location": "On-site",
+    "experience_level": "Fresher (0 years)",
+    "background": "No prior experience — learning on the job",
+    "training_needed": ["AI tools", "ComfyUI basics", "Brand guidelines", "Social media formats", "Editing workflows"],
+    "autonomy_goal": "Independent visual creation for all clients without Jinay's involvement",
+    "manager": "Jinay",
+    "current_focus": "Totsburg catalogue editing — learning phase"
+  }
+}

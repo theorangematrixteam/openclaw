@@ -1,0 +1,242 @@
+[
+  {
+    "row": 2,
+    "company": "BITCHN",
+    "handle": "bitchn.official",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 3,
+    "company": "Sharmeeli",
+    "handle": "sharmeeli.in",
+    "category": "Clothing:Ethnic"
+  },
+  {
+    "row": 4,
+    "company": "Whynaut",
+    "handle": "whynaut.in",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 5,
+    "company": "Label Kariya",
+    "handle": "label.kariya",
+    "category": "Clothing:Ethnic Fusion"
+  },
+  {
+    "row": 6,
+    "company": "Our Karma Clothing",
+    "handle": "ourkarmaclothing",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 7,
+    "company": "Aarnora",
+    "handle": "aarnorajewels",
+    "category": "Jewelry:Silver"
+  },
+  {
+    "row": 8,
+    "company": "Pranikas",
+    "handle": "pranikas.shop",
+    "category": "Clothing:Ethnic"
+  },
+  {
+    "row": 9,
+    "company": "Rihyaaz Fashions",
+    "handle": "rihyaaz.fashion",
+    "category": "Clothing:Ethnic"
+  },
+  {
+    "row": 10,
+    "company": "Dandelion Jewels",
+    "handle": "dandelionjewels",
+    "category": "Jewelry:Handmade"
+  },
+  {
+    "row": 11,
+    "company": "Silvooshine",
+    "handle": "silvooshine",
+    "category": "Jewelry:Silver"
+  },
+  {
+    "row": 12,
+    "company": "Windowsill",
+    "handle": "windowsill.store",
+    "category": "Product:Candles"
+  },
+  {
+    "row": 13,
+    "company": "Lussora",
+    "handle": "lussora_",
+    "category": "Product:Perfume"
+  },
+  {
+    "row": 14,
+    "company": "Sunheri Flame",
+    "handle": "sunheri_flame",
+    "category": "Product:Candles"
+  },
+  {
+    "row": 15,
+    "company": "Gharana Karigari Company",
+    "handle": "gharanakarigaricompany",
+    "category": "Clothing:Ethnic"
+  },
+  {
+    "row": 16,
+    "company": "Corall",
+    "handle": "corall.in",
+    "category": "Clothing:Women"
+  },
+  {
+    "row": 17,
+    "company": "Posh Patola",
+    "handle": "poshpatola",
+    "category": "Clothing:Ethnic"
+  },
+  {
+    "row": 18,
+    "company": "Zalkari",
+    "handle": "_zalkari_",
+    "category": "Jewelry:Silver"
+  },
+  {
+    "row": 19,
+    "company": "Anvera",
+    "handle": "anvera.international",
+    "category": "Product:Perfume"
+  },
+  {
+    "row": 25,
+    "company": "Véora",
+    "handle": "evoraindia",
+    "category": "Product:Diffusers/Jewelry"
+  },
+  {
+    "row": 27,
+    "company": "Hizbah",
+    "handle": "hizbah.co",
+    "category": "Clothing:Modest Streetwear"
+  },
+  {
+    "row": 28,
+    "company": "House of Aagor",
+    "handle": "houseofaagor",
+    "category": "Clothing:Heritage Streetwear"
+  },
+  {
+    "row": 29,
+    "company": "Vastralay101",
+    "handle": "vastralay101",
+    "category": "Clothing:Mythology Streetwear"
+  },
+  {
+    "row": 30,
+    "company": "Ornatique",
+    "handle": "ornatiquejewels",
+    "category": "Jewelry:Affordable Luxury"
+  },
+  {
+    "row": 31,
+    "company": "The Floral Fusion",
+    "handle": "thefloralfusion.official",
+    "category": "Product:Candles"
+  },
+  {
+    "row": 32,
+    "company": "SoulSet",
+    "handle": "soulsetofficial",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 33,
+    "company": "Essence and Elixir",
+    "handle": "essence.elixir",
+    "category": "Product:Candles"
+  },
+  {
+    "row": 36,
+    "company": "Maison Avenoir",
+    "handle": "maisonavenoir",
+    "category": "Product:Perfume"
+  },
+  {
+    "row": 37,
+    "company": "Silly Cartel",
+    "handle": "sillycartel",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 38,
+    "company": "XyverLuxera",
+    "handle": "xyverluxera",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 39,
+    "company": "Bhangi by Nilja K Baby",
+    "handle": "bhangibynilja",
+    "category": "Jewelry:Fashion"
+  },
+  {
+    "row": 40,
+    "company": "Jovira",
+    "handle": "jovirajewels",
+    "category": "Jewelry:Silver"
+  },
+  {
+    "row": 41,
+    "company": "Zaishree",
+    "handle": "zaishreejewellery",
+    "category": "Jewelry:Demi-Fine"
+  },
+  {
+    "row": 42,
+    "company": "Sterling Sutra",
+    "handle": "silversutra.in",
+    "category": "Jewelry:Silver"
+  },
+  {
+    "row": 43,
+    "company": "Pearl of Wax",
+    "handle": "pearlofwax",
+    "category": "Product:Candles"
+  },
+  {
+    "row": 44,
+    "company": "Sixtyscent",
+    "handle": "sixtyscent",
+    "category": "Product:Candles"
+  },
+  {
+    "row": 45,
+    "company": "Suramya By Saumya",
+    "handle": "suramyabysaumya",
+    "category": "Jewelry:Fashion"
+  },
+  {
+    "row": 46,
+    "company": "WearDuds",
+    "handle": "wearduds",
+    "category": "Clothing:Streetwear"
+  },
+  {
+    "row": 61,
+    "company": "Krimilo",
+    "handle": "krimilo",
+    "category": "Clothing:Ethnic"
+  },
+  {
+    "row": 62,
+    "company": "Suramyah",
+    "handle": "suramyah.in",
+    "category": "Jewelry:Silver"
+  },
+  {
+    "row": 63,
+    "company": "ZEPHYRA",
+    "handle": "zephyra.co.in",
+    "category": "Jewelry:Silver"
+  }
+]
