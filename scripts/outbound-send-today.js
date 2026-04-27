@@ -9,6 +9,26 @@ const ORANGE_PHONE = '91 7977147253';
 // MAX 30 emails per day total (initial + all follow-ups combined)
 const MAX_DAILY_EMAILS = 30;
 
+function cleanEmail(email) {
+  if (!email || typeof email !== 'string') return '';
+  // Remove "TBD" prefix and everything after it if no actual email
+  if (email.toLowerCase().startsWith('tbd')) {
+    // Try to extract email from the text
+    const emailMatch = email.match(/([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/);
+    if (emailMatch) return emailMatch[1];
+    return '';
+  }
+  // If multiple emails separated by "/" or "or", take the first valid one
+  const emails = email.split(/\s*[/|]\s*|\s+or\s+/i);
+  for (const e of emails) {
+    const cleaned = e.trim();
+    if (cleaned.includes('@') && cleaned.includes('.')) {
+      return cleaned;
+    }
+  }
+  return '';
+}
+
 function getInitialTemplate(lead) {
   const { company, firstName, category } = lead;
   let productType = 'products';
@@ -178,11 +198,12 @@ function getLeadsNeedingFollowUp() {
     const status = row[14] || 'New';
     const lastContacted = row[15] || '';
     const company = row[1] || '';
-    const email = row[6] || '';
+    const rawEmail = row[6] || '';
+    const email = cleanEmail(rawEmail);
     const firstName = row[3] || '';
     const category = row[0] || '';
     
-    if (!lastContacted || !email || !email.includes('@')) continue;
+    if (!lastContacted || !email) continue;
     
     const lastDate = new Date(lastContacted);
     if (isNaN(lastDate)) continue;
@@ -217,8 +238,9 @@ function getNewLeads() {
     const status = row[14] || 'New';
     
     if (status === 'New') {
-      const email = row[6] || '';
-      if (email && email.includes('@') && !email.includes('TBD')) {
+      const rawEmail = row[6] || '';
+      const email = cleanEmail(rawEmail);
+      if (email) {
         leads.push({
           row: i + 2,
           company: row[1] || '',
